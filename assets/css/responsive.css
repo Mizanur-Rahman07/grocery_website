@@ -1,0 +1,529 @@
+/* For Mobile devices: 320px-480px
+For Tablets or iPad: 480px - 768px
+For Laptop or small-size screen: 768px -1024px
+For Desktop or large-size screen: 1024px -1200px
+For Extra-large size device: 1200px and more */
+
+@media (min-width: 1400px)and (max-width:1620px){
+    .container {
+        width: 1400px;
+}
+.featured_content h2{
+    font-size: 25px;
+}
+
+.flashSell_content h2{
+    font-size: 25px;
+}
+.about_freeShipping_content i {
+	font-size: 40px;
+	margin-right: 20px;
+}
+.about_freeShipping {
+	background-color: #ece4e4;
+	padding: 25px 15px 5px 30px;
+	border-radius: 4px;
+}
+.homeArticle h4 {
+	font-size: 18px;
+}
+.homeArticle h5 {
+	font-size: 15px;
+}
+.organicHoney_img_1 {
+	height: 658px;
+	width: 100%;
+}
+.landed_img_1 {
+	height: 487px;
+	width: 100%;
+}
+}
+
+@media (min-width: 1200px)and (max-width:1399px){
+    .container {
+        width: 1200px;
+}
+
+.featured_content h2{
+    font-size: 25px;
+}
+
+.flashSell_content h2{
+    font-size: 25px;
+}
+.about_freeShipping_content i {
+	font-size: 40px;
+	margin-right: 20px;
+}
+.about_freeShipping {
+	background-color: #ece4e4;
+	padding: 25px 15px 5px 30px;
+	border-radius: 4px;
+}
+.homeArticle h4 {
+	font-size: 18px;
+}
+.homeArticle h5 {
+	font-size: 15px;
+}
+.organicHoney_img_1 {
+	height: 658px;
+	width: 100%;
+}
+.landed_img_1 {
+	height: 487px;
+	width: 100%;
+}
+}
+
+@media (min-width: 1024px)and (max-width:1199px){
+    .container {
+        width: 1025px;
+}
+.offer_icon {
+	padding-left:0%;
+}
+.featured_content p {
+	font-size: 14px;
+}
+.featured_content h2 {
+	font-size: 24px;
+}
+.featured_content h6 {
+	font-size: 13px;
+}
+.featured_content h4 {
+	font-size: 18px;
+}
+.featured_btn a {
+	font-size: 14px;
+}
+.featured_img img {
+	width: 160px;
+	height: 160px;
+}
+.exclusive_img img {
+	width: 170px;
+	height: 165px;
+}
+.organicHoney_img_1 {
+	height: 545px;
+	width: 100%;
+}
+
+.flashSell_content p {
+	font-size: 14px;
+}
+.flashSell_content h2 {
+	font-size: 24px;
+}
+.flashSell_content h6 {
+	font-size: 13px;
+}
+.flashSell_content h4 {
+	font-size: 18px;
+}
+.featured_btn a {
+	font-size: 14px;
+}
+.flashSell_img img {
+	width: 165px;
+	height: 165px;
+	padding: 10px;
+}
+.landed_img_1 {
+	height: 432px;
+	width: 100%;
+}
+.landed_content p {
+	font-size: 14px;
+}
+.about_freeShipping {
+	background-color: #ece4e4;
+	padding: 20px 16px 2px 25px;
+	border-radius: 4px;
+}
+.homeArticle h4 {
+	font-size: 18px;
+}
+.homeArticle h5 {
+	font-size: 15px;
+}
+.col-md-8{
+	overflow: hidden;
+}
+}
+
+@media (min-width: 768px)and (max-width:1023px){
+    .container {
+        width: 770px;
+}
+.col_md_3_change {
+    width: 50%;
+}
+.col-md-5 {
+	width: 50%;
+}
+.col_8_change {
+	width: 25%;
+}
+.col_5_change {
+	width: 33.33%;
+}
+.col-md-9{
+    width: 100%;
+}
+.col-md-3{
+width: 33.33%;
+}
+.exclusive_img img {
+	width: 180px;
+	height: 180px;
+}
+.res_d_none{
+    display: none;
+}
+.expire {
+	margin: 25px;
+}
+.daily_bg_change h3 {
+	font-size: 20px;
+}
+.daily_bg_change {
+	height: 40px;
+	margin-top: 20px;
+}
+.res_col_3{
+    width: 100%;
+}
+.landed_img_1 {
+	height: 350px;
+	margin-bottom: 25px;
+}
+.about_freeShipping_content i {
+	font-size: 40px;
+	margin-right: 15px;
+}
+.about_freeShipping {
+	background-color: #ece4e4;
+	padding: 30px 5px 8px 22px;
+	border-radius: 4px;
+}
+.res_col_3_768{
+    width: 50%;
+}
+.homeArticle h4 {
+	font-size: 18px;
+}
+.homeArticle a {
+	font-size: 14px;
+}
+.homeArticle p {
+	font-size: 12px;
+}
+.cta_contact_text h3 {
+	font-size: 20px;
+	color: white;
+	padding: 1px 0 0 0;
+	font-weight: 700;
+}
+.search_field {
+	width: 100%;
+	border-radius: 5px;
+	border: 0;
+	padding: 10px 20px;
+}
+.contact_cta_D_flex{
+    display: inherit;
+    text-align: center;
+}
+.search_btn {
+	padding: 10px 10px;
+	margin-top: 15px;
+}
+.res_col_6{
+	width: 100%;
+}
+
+.res_col_3_2{
+	width: 25%;
+}
+.res_col_5{
+	width: 50%;
+}
+.res_col_7{
+	width: 50%;
+}
+
+.col_5{
+    width: 33.33%;
+}
+.col-md-8{
+	overflow: hidden;
+}
+
+}
+
+/* --------------------------------------- */
+@media (min-width: 480px)and (max-width:767px){
+    .container {
+        width: 480px;
+}
+.col_md_3_change {
+    width: 100%;
+}
+.organic_img_1, .organic_img_3 {
+    height: 350px;
+}
+.col_8_change {
+	width: 50%;
+}
+.col_5_change {
+    width: 50%;
+}
+.organFood_img_1 {
+	height: 300px;
+	margin-bottom: 20px;
+}
+.organicHoney_img_1, .organicHoney_img_2 {
+	height: 300px;
+}
+.dailyFlash{
+    display: inherit;
+}
+.expire {
+    margin: 0px;
+}
+.daily_bg_change {
+    background-color: #ff6c00;
+    width: 200px;
+    height: 35px;
+    margin: 10px 0px 20px 0px;
+}
+.daily_bg_change h3{
+    font-size: 15px;
+}
+#Daily_Flash_sell .planLine_2{
+    display: none;
+}
+
+.landed_img_1 {
+	height: 400px;
+    margin-bottom: 20px;
+}
+.homeArticle p {
+	font-size: 12px;
+}
+.homeArticle h4 {
+	font-size: 18px;
+}
+.homeArticle a {
+	font-size: 14px;
+}
+
+.cta_contact_text h3 {
+	font-size: 20px;
+	color: white;
+	padding: 1px 0 0 0;
+	font-weight: 700;
+}
+.search_field {
+	width: 100%;
+	border-radius: 5px;
+	border: 0;
+	padding: 10px 20px;
+}
+.contact_cta_D_flex{
+    display: inherit;
+    text-align: center;
+}
+.search_btn {
+	padding: 10px 10px;
+	margin-top: 15px;
+}
+.contact_insta_img img {
+	height: 280px;
+}
+}
+
+/* --------------------------------------------- */
+
+@media (min-width: 320px)and (max-width:479px){
+    .container {
+        width: 300px;
+}
+.col_md_3_change {
+    width: 100%;
+}
+.organic_img_1, .organic_img_3 {
+    height: 254px;
+}
+.col_5_change {
+    width: 100%;
+}
+
+.col_8_change{
+    width: 100%;
+}
+.featured_content h2{
+    font-size: 18px;
+}
+.featured_content p{
+    font-size: 12px;
+}
+.featured_content h4{
+    font-size: 15px;
+}
+.featured_content h6{
+    font-size: 12px;
+}
+.featured_content .featured_btn a{
+    font-size: 12px;
+}
+.organFood_img_1 {
+	height: 250px;
+    margin-bottom: 20px;
+}
+.ogranicFoodText1 p, .ogranicFoodText2 p, .ogranicFoodText3 p{
+    font-size: 12px;
+}
+.ogranicFoodText1 h3, .ogranicFoodText2 h3 , .ogranicFoodText3 h3{
+   font-size: 20px;
+}
+.ogranicFoodText1 h6, .ogranicFoodText2 h6, .ogranicFoodText3 h6{
+    font-size: 12px;
+}
+.organic_btn a {
+  font-size: 12px;
+}
+.organicHoney_img_1, .organicHoney_img_2 {
+    height: 250px;
+}
+.dailyFlash{
+    display: inherit;
+}
+.expire {
+    margin: 0px;
+}
+.daily_bg_change {
+    background-color: #ff6c00;
+    width: 200px;
+    height: 35px;
+    margin: 10px 0px 20px 0px;
+}
+.daily_bg_change h3{
+    font-size: 15px;
+}
+#Daily_Flash_sell .planLine_2{
+    display: none;
+}
+.flashSell_img img {
+	width: 150px;
+	height: 150px;
+}
+.flashSell_content p{
+    font-size: 12px;
+}
+.flashSell_content h2{
+    font-size: 18px;
+}
+.flashSell_content h6{
+    font-size: 12px;
+}
+.flashSell_content h4{
+    font-size: 15px;
+}
+.flashSell_content .featured_btn a{
+    font-size: 12px;
+}
+
+.landed_img_1 {
+    height: 300px;
+    margin-bottom: 25px;
+}
+.landed_content img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 10px;
+}
+.landed_content h3{
+    font-size: 18px;
+}
+.landed_content p{
+    font-size: 12px;
+}
+
+.exclusive_img img {
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+}
+.about_freeShipping {
+	background-color: #ece4e4;
+	padding: 25px 20px 0px 25px;
+	border-radius: 4px;
+}
+
+.about_freeShipping_content i {
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+.about_freeShipping_content h5{
+    font-size: 16px;
+}
+
+.homeArticle p {
+	font-size: 12px;
+}
+.homeArticle h4 {
+	font-size: 16px;
+}
+.homeArticle a {
+	font-size: 14px;
+}
+.contact_logo img {
+	width: 150px;
+	height: 60px;
+	margin-bottom: 15px;
+}
+.contact_info{
+    margin-top: 25px;
+}
+.contact_info h5{
+    margin-bottom: 15px;
+}
+.contact_insta_img img {
+	height: 180px;
+}
+
+.col_5{
+    width: 33.33%;
+}
+
+.cta {
+	padding: 10px 5px;
+}
+
+.cta_contact_text h3 {
+	font-size: 15px;
+	color: white;
+	padding: 1px 0 0 0;
+	font-weight: 500;
+}
+.search_field {
+	width: 100%;
+	border-radius: 5px;
+	border: 0;
+	padding: 5px 20px;
+}
+.contact_cta_D_flex{
+    display: inherit;
+    text-align: center;
+}
+.search_btn {
+	padding: 7px 8px;
+	margin-top: 10px;
+}
+}
