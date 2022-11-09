@@ -23,10 +23,96 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
     <title>About Us</title>
 </head>
 
 <body>
+
+    
+    <header class="bg_color">
+
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-md-2 category_bg">
+                        <a class="navbar-brand text-white cat_font" href="#">SHOP BY CATEGORY</a>
+                        <span><i class="fa-solid fa-bars text-white"></i></span>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="collapse navbar-collapse menu" id="navbarNavDropdown">
+                            <ul class="navbar-nav  ">
+                                <li class="nav-item ">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">PRODUCTS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">FRESH</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">FROZEN</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">SHOP</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        PAGE
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        BLOG
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Blog</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">MEGAMENU</a>
+                                </li>
+                                <li class="nav-item offer_icon">
+                                    <a class="nav-link text-white" href="#"><i class="fa-brands fa-buffer"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white " href="#">Best_Offer</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="profile">
+                            <span>| </span>
+                            <i class="fa-solid fa-user"></i>
+                            <span>My Account</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
     <section id="Creating_Shop" class="py-5">
         <div class="container">
             <div class="row">
@@ -60,12 +146,12 @@
                     <div class="about_guaranted d-flex">
                         <div class="aboutGrant">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 res_col_6">
                                     <div class="about_tometo">
                                         <img src="assets/img/about-us/1.jpg" alt="" srcset="">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 res_col_6">
                                     <div class="about_tometo">
                                         <img src="assets/img/about-us/2.jpg" alt="" srcset="">
                                     </div>
@@ -149,8 +235,10 @@
                         <div class="row">
                             <div class="col-md-6 aboutSupplying_p">
                                 <div class="supplying_content py-3">
-                                    <i class="fa-solid fa-shop-lock"></i>
-                                    <h4>Qualityfull Product</h4>
+                                    <div class="supplyingHeadIcon">
+                                        <i class="fa-solid fa-shop-lock"></i>
+                                        <h4>Qualityfull Product</h4>
+                                    </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas debitis
                                         tempore fuga
                                         libero eius?</p>
@@ -158,8 +246,10 @@
                             </div>
                             <div class="col-md-6 aboutSupplying_p">
                                 <div class="supplying_content py-3">
-                                    <i class="fa-solid fa-shop-lock"></i>
-                                    <h4>Qualityfull Product</h4>
+                                    <div class="supplyingHeadIcon">
+                                        <i class="fa-solid fa-shop-lock"></i>
+                                        <h4>Qualityfull Product</h4>
+                                    </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas debitis
                                         tempore fuga
                                         libero eius?</p>
@@ -167,8 +257,10 @@
                             </div>
                             <div class="col-md-6 aboutSupplying_p">
                                 <div class="supplying_content py-3">
-                                    <i class="fa-solid fa-shop-lock"></i>
-                                    <h4>Qualityfull Product</h4>
+                                    <div class="supplyingHeadIcon">
+                                        <i class="fa-solid fa-shop-lock"></i>
+                                        <h4>Qualityfull Product</h4>
+                                    </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas debitis
                                         tempore fuga
                                         libero eius?</p>
@@ -176,8 +268,10 @@
                             </div>
                             <div class="col-md-6 aboutSupplying_p">
                                 <div class="supplying_content py-3">
-                                    <i class="fa-solid fa-shop-lock"></i>
-                                    <h4>Qualityfull Product</h4>
+                                    <div class="supplyingHeadIcon">
+                                        <i class="fa-solid fa-shop-lock"></i>
+                                        <h4>Qualityfull Product</h4>
+                                    </div>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptas debitis
                                         tempore fuga
                                         libero eius?</p>
@@ -224,7 +318,7 @@
                                             ducimus pariatur laudantium commodi numquam. Provident ab delectus minima!
                                         </p>
                                         <h5>Mizanur Rahman</h5>
-                                        <p>CEO and Founder</p>
+                                        <h6>CEO and Founder</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -241,7 +335,7 @@
                                             ducimus pariatur laudantium commodi numquam. Provident ab delectus minima!
                                         </p>
                                         <h5>Kaziul Islam</h5>
-                                        <p>Associat Derector</p>
+                                        <h6>Associat Derector</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -258,7 +352,7 @@
                                             ducimus pariatur laudantium commodi numquam. Provident ab delectus minima!
                                         </p>
                                         <h5>Hasanur Alom</h5>
-                                        <p>Assistant Director</p>
+                                        <h6>Assistant Director</h6>
                                     </div>
                                 </div>
                             </div>
@@ -279,7 +373,7 @@
                                             ducimus pariatur laudantium commodi numquam. Provident ab delectus minima!
                                         </p>
                                         <h5>Abu Tayou Shah</h5>
-                                        <p>Manager</p>
+                                        <h6>Manager</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -296,7 +390,7 @@
                                             ducimus pariatur laudantium commodi numquam. Provident ab delectus minima!
                                         </p>
                                         <h5>Shofiqul Islam</h5>
-                                        <p>Assistant Manager</p>
+                                        <h6>Assistant Manager</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-4">
@@ -313,7 +407,7 @@
                                             ducimus pariatur laudantium commodi numquam. Provident ab delectus minima!
                                         </p>
                                         <h5>Ishrat Jahan Mridula</h5>
-                                        <p>Assistant Programmer</p>
+                                        <h6>Assistant Programmer</h6>
                                     </div>
                                 </div>
                             </div>
@@ -349,14 +443,14 @@
     <section id="Team_leader" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
+                <div class="col-md-4 res_col_2"></div>
+                <div class="col-md-4 res_col_4">
                     <h2 class="text-center">Our Professional and Dedicated Expert Team Leader</h>
                 </div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4 res_col_2"></div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 res_col_3_3">
                     <div class="about_teamLeader text-center mt-5">
                         <div class="teamLeader_img position-relative">
                             <img src="assets/img/about-us/6.jpg" alt="">
@@ -371,7 +465,7 @@
                         <p>CO founder</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 res_col_3_3">
                     <div class="about_teamLeader text-center mt-5">
                         <div class="teamLeader_img position-relative">
                             <img src="assets/img/about-us/8.jpg" alt="">
@@ -386,7 +480,7 @@
                         <p>CO founder</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 res_col_3_3">
                     <div class="about_teamLeader text-center mt-5">
                         <div class="teamLeader_img position-relative">
                             <img src="assets/img/about-us/7.jpg" alt="">
@@ -401,7 +495,7 @@
                         <p>CO founder</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 res_col_3_3">
                     <div class="about_teamLeader text-center mt-5">
                         <div class="teamLeader_img position-relative">
                             <img src="assets/img/about-us/9.jpg" alt="">
@@ -419,238 +513,318 @@
             </div>
         </div>
     </section>
+  <!-- -------------------------------------------- -->
+    
+  <section id="About_Shipping_System" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 res_col_3_768 mb-3">
+          <div class="about_freeShipping">
+            <div class="about_freeShipping_content d-flex">
+              <i class="fa-solid fa-headset"></i>
+              <span>
+                <h5>Free Shipping</h5>
+                <p>When You Order Over %150</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 res_col_3_768 mb-3">
+          <div class="about_freeShipping">
+            <div class="about_freeShipping_content d-flex">
+              <i class="fa-solid fa-headset"></i>
+              <span>
+                <h5>Free Shipping</h5>
+                <p>When You Order Over %150</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 res_col_3_768 mb-3">
+          <div class="about_freeShipping">
+            <div class="about_freeShipping_content d-flex">
+              <i class="fa-solid fa-headset"></i>
+              <span>
+                <h5>Free Shipping</h5>
+                <p>When You Order Over %150</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 res_col_3_768 mb-3">
+          <div class="about_freeShipping">
+            <div class="about_freeShipping_content d-flex">
+              <i class="fa-solid fa-headset"></i>
+              <span>
+                <h5>Free Shipping</h5>
+                <p>When You Order Over %150</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="About_Shipping_System" class="py-5 mb-5">
-        <div class="container">
+  <section id="Contact_cta" class="mb-5">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-md-6">
+          <div class="cta_contact_text">
+            <h3>
+              Subscribe And Get Free
+              <span class="text-warning">30%</span> Discount For All Products
+            </h3>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="contact_cta_btn">
+            <form class="contact_cta_D_flex">
+              <input
+                class="me-2 search_field"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success search_btn"
+                type="submit"
+              >
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -------------------------------------------- -->
+
+  <section id="Contact" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 res_col_6">
+          <div class="row mb-5">
+            <div class="col-md-6">
+              <div class="contact_logo">
+                <img
+                  src="assets/img/logo/Capture-removebg-preview.png"
+                  alt=""
+                />
+                <p class="text-muted">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolore ducimus dolor hic nostrum odit, odio corrupti um
+                  dolor sit amet consectetur, adipisicing elit.
+                </p>
+                <h5>Follow Us</h5>
+                <div class="contact_icon">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 res_col_3_2">
+              <div class="contact_info">
+                <h5>Information</h5>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Delevary Information</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Contact</a></p>
+                <p><a href="#">Terms & Condition</a></p>
+                <p><a href="#">Return</a></p>
+                <p><a href="#">Support Center</a></p>
+              </div>
+            </div>
+
+            <div class="col-md-3 res_col_3_2">
+              <div class="contact_info">
+                <h5>Category</h5>
+                <p><a href="#">Backery & Pastry</a></p>
+                <p><a href="#">Meats</a></p>
+                <p><a href="#">Frozen & Seafood</a></p>
+                <p><a href="#">Custard Powder</a></p>
+                <p><a href="#">Vegatable</a></p>
+                <p><a href="#">Farm Raised Fillets</a></p>
+                <p><a href="#">Snacks items</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 res_col_6">
+          <div class="row">
+            <div class="col-md-5 res_col_5_2">
+              <div class="contact_info">
+                <h5>Contacts Us</h5>
+                <h6><a href="#">Location</a></h6>
+                <p>Centerside los Angeles On Celefornia in USA</p>
+                <p></p>
+                <br />
+                <h6><a href="#">Phone</a></h6>
+                <a href="tel:+8801755463304 ">
+                  <p class="tel">+880 1755-463304</p>
+                </a>
+                <p></p>
+                <br />
+                <h6><a href="#">Email</a></h6>
+                <a href="mailto:mzrahman075@gmail.com">
+                  <p class="tel">mzrahman075@gmail.com</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-7 res_col_7">
+              <div class="contact_info">
+                <h5>Instagram</h5>
+                <p><a href="#">Follow Our Instagram Page</a></p>
+                <div class="row">  
+                  <div class="col-md-4 insta_pic text-center">
+                    <div class="contact_insta_img">
+                      <a
+                        href="assets/img/footer/faluda2.jpg"
+                        data-lightbox="mygallery"
+                        data-title="Caption-1"
+                      >
+                        <img src="assets/img/footer/faluda2.jpg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 insta_pic text-center">
+                    <div class="contact_insta_img">
+                      <a
+                        href="assets/img/footer/dragon3.jpg"
+                        data-lightbox="mygallery"
+                        data-title="Caption-2"
+                      >
+                        <img src="assets/img/footer/dragon3.jpg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 insta_pic text-center">
+                    <div class="contact_insta_img">
+                      <a
+                        href="assets/img/footer/pizza2.jpg"
+                        data-lightbox="mygallery"
+                        data-title="Caption-3"
+                      >
+                        <img src="assets/img/footer/pizza2.jpg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 insta_pic text-center">
+                    <div class="contact_insta_img">
+                      <a
+                        href="assets/img/footer/biscute.png"
+                        data-lightbox="mygallery"
+                        data-title="Caption-4"
+                      >
+                        <img src="assets/img/footer/biscute.png" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 insta_pic text-center">
+                    <div class="contact_insta_img">
+                      <a
+                        href="assets/img/footer/strawberry.jpg"
+                        data-lightbox="mygallery"
+                        data-title="Caption-5"
+                      >
+                        <img src="assets/img/footer/strawberry.jpg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 insta_pic text-center">
+                    <div class="contact_insta_img">
+                      <a
+                        href="assets/img/footer/fruits1.jpg"
+                        data-lightbox="mygallery"
+                        data-title="Caption-6"
+                      >
+                        <img src="assets/img/footer/fruits1.jpg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="Footer" class="mt-3">
+    <div class="container">
+      <div class="footer_border py-3">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer">
+              <p>Copyright &copy; 2022 Fresho .All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="col-md-4">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="about_freeShipping">
-                        <div class="about_freeShipping_content d-flex">
-                           <i class="fa-solid fa-headset"></i>
-                           <span>
-                               <h5>Free Shipping</h5>
-                               <p>When You Order Over %150</p>
-                           </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="about_freeShipping">
-                        <div class="about_freeShipping_content d-flex">
-                           <i class="fa-solid fa-headset"></i>
-                           <span>
-                               <h5>Free Shipping</h5>
-                               <p>When You Order Over %150</p>
-                           </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="about_freeShipping">
-                        <div class="about_freeShipping_content d-flex">
-                           <i class="fa-solid fa-headset"></i>
-                           <span>
-                               <h5>Free Shipping</h5>
-                               <p>When You Order Over %150</p>
-                           </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="about_freeShipping">
-                        <div class="about_freeShipping_content d-flex">
-                           <i class="fa-solid fa-headset"></i>
-                           <span>
-                               <h5>Free Shipping</h5>
-                               <p>When You Order Over %150</p>
-                           </span>
-                        </div>
-                    </div>
-                </div>
+              <div class="col_5 payment">
+                <a href=""
+                  ><img src="assets/img/payments/1.jpg" alt="" srcset=""
+                /></a>
+              </div>
+              <div class="col_5 payment">
+                <a href=""
+                  ><img src="assets/img/payments/2.jpg" alt="" srcset=""
+                /></a>
+              </div>
+              <div class="col_5 payment">
+                <a href=""
+                  ><img src="assets/img/payments/3.jpg" alt="" srcset=""
+                /></a>
+              </div>
+              <div class="col_5 payment">
+                <a href=""
+                  ><img src="assets/img/payments/5.jpg" alt="" srcset=""
+                /></a>
+              </div>
+              <div class="col_5 payment">
+                <a href=""
+                  ><img src="assets/img/payments/6.png" alt="" srcset=""
+                /></a>
+              </div>
             </div>
-        </div>
-    </section>
-
-
-
-
-
-
-    <!-- ---------------------------------- -->
-    <section id="Contact_cta" class="mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="cta_contact_text py-5">
-                        <h3>Subscribe And Get Free <span class="text-warning">30%</span> Discount For All Products</h3>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="contact_cta_btn py-5">
-                        <form class="d-flex ">
-                            <input class="me-2 search_field" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success search_btn" type="submit">Subscribe Now</button>
-                        </form>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-right">
+              <p><a href="">Our Company | Carrers | All Depertments</a></p>
             </div>
+          </div>
         </div>
-    </section>
-
-    <section id="Contact" class="py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="contact_logo">
-                        <img src="assets/img/logo/Capture-removebg-preview.png" alt="">
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore ducimus
-                            dolor hic nostrum odit, odio corrupti um dolor sit amet consectetur, adipisicing elit.
-                        </p>
-                        <h5>Follow Us</h5>
-                        <div class="contact_icon">
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="contact_info">
-                                <h5>Information</h5>
-                                <p><a href="#">About Us</a></p>
-                                <p><a href="#">Delevary Information</a></p>
-                                <p><a href="#">Privacy Policy</a></p>
-                                <p><a href="#">Contact</a></p>
-                                <p><a href="#">Terms & Condition</a></p>
-                                <p><a href="#">Return</a></p>
-                                <p><a href="#">Support Center</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="contact_info">
-                                <h5>Category</h5>
-                                <p><a href="#">Backery & Pastry</a></p>
-                                <p><a href="#">Meats</a></p>
-                                <p><a href="#">Frozen & Seafood</a></p>
-                                <p><a href="#">Custard Powder</a></p>
-                                <p><a href="#">Vegatable</a></p>
-                                <p><a href="#">Farm Raised Fillets</a></p>
-                                <p><a href="#">Snacks items</a></p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="contact_info">
-                                <h5>Contacts Us</h5>
-                                <h6><a href="#">Location</a></h6>
-                                <p>Centerside los Angeles On Celefornia in USA</p>
-                                <p></p><br>
-                                <h6><a href="#">Phone</a></h6>
-                                <a href="tel:+8801755463304 ">
-                                    <p class="tel">+880 1755-463304</p>
-                                </a>
-                                <p></p><br>
-                                <h6><a href="#">Email</a></h6>
-                                <a href="mailto:mzrahman075@gmail.com">
-                                    <p class="tel">mzrahman075@gmail.com</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="contact_info">
-                        <h5>Instagram</h5>
-                        <p><a href="#">Follow Our Instagram Page</a></p>
-                        <div class="row">
-                            <div class="col-md-4 insta_pic text-center">
-                                <div class="contact_insta_img">
-                                    <a href="assets/img/footer/faluda2.jpg" data-lightbox="mygallery"
-                                        data-title="Caption-1"> <img src="assets/img/footer/faluda2.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 insta_pic text-center">
-                                <div class="contact_insta_img">
-                                    <a href="assets/img/footer/dragon3.jpg" data-lightbox="mygallery"
-                                        data-title="Caption-2"> <img src="assets/img/footer/dragon3.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 insta_pic text-center">
-                                <div class="contact_insta_img">
-                                    <a href="assets/img/footer/pizza2.jpg" data-lightbox="mygallery"
-                                        data-title="Caption-3"> <img src="assets/img/footer/pizza2.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 insta_pic text-center">
-                                <div class="contact_insta_img">
-                                    <a href="assets/img/footer/biscute.png" data-lightbox="mygallery"
-                                        data-title="Caption-4"> <img src="assets/img/footer/biscute.png" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4 insta_pic text-center">
-                                <div class="contact_insta_img">
-                                    <a href="assets/img/footer/strawberry.jpg" data-lightbox="mygallery"
-                                        data-title="Caption-5"> <img src="assets/img/footer/strawberry.jpg" alt=""></a>
-
-                                </div>
-                            </div>
-                            <div class="col-md-4 insta_pic text-center">
-                                <div class="contact_insta_img">
-                                    <a href="assets/img/footer/fruits1.jpg" data-lightbox="mygallery"
-                                        data-title="Caption-6"> <img src="assets/img/footer/fruits1.jpg" alt=""></a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id="Footer" class="mt-3">
-        <div class="container">
-            <div class="footer_border  py-3">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="footer">
-                            <p>Copyright &copy; 2022 Fresho .All Rights Reserved</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="payment text-center">
-                            <a href=""><img src="assets/img/payments/1.jpg" alt="" srcset=""></a>
-                            <a href=""><img src="assets/img/payments/2.jpg" alt="" srcset=""></a>
-                            <a href=""><img src="assets/img/payments/3.jpg" alt="" srcset=""></a>
-                            <a href=""><img src="assets/img/payments/4.jpg" alt="" srcset=""></a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="footer-right">
-                            <p><a href="">Our Company | Carrers | All Depertments</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
 
 
-    <!-- jquery light box cdn -->
-    <script src="assets/js/lightbox-plus-jquery.min.js"></script>
-    <!-- jquery cdn -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- slick slide cdn -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <!-- slick slide cdn -->
-    <script src="./assets/js/main.js"></script>
+
+  <!-- jquery light box cdn -->
+  <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+  <!-- jquery cdn -->
+  <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"
+  ></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- slick slide cdn -->
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <!-- slick slide cdn -->
+  <script src="./assets/js/main.js"></script>
+  
+  <!-- ------- -->
+  <div>
+    <!-- ------ -->
 
 </body>
-
 </html>

@@ -1018,13 +1018,13 @@ a {
 }
 
 .gruntedImg img {
-    position: absolute;
-    bottom: 25%;
-    left: 36%;
-    background-color: white;
-    border-radius: 50%;
-    width: 210px;
-    height: 210px;
+	position: absolute;
+	bottom: 25%;
+	left: 32%;
+	background-color: white;
+	border-radius: 50%;
+	width: 210px;
+	height: 210px;
 }
 
 #Easily_Buy {
@@ -1352,9 +1352,10 @@ a {
 .wishCart_price{
     color: #1aa45a;
 }
-.wishContent_review{
-    font-size: 15px;
-    color: orange;
+.wishContent_review {
+	font-size: 14px;
+	color: orange;
+	margin-top: 10px;
 }
 .wishStrock {
     margin-top: 70px;
