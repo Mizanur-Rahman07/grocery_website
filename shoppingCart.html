@@ -34,21 +34,111 @@
     />
 
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
     <title>Shopping Cart</title>
   </head>
 
   <body>
-    <section id="WishList" class="py-5">
+
+    <header class="bg_color">
+      <section id="Menu" class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg_color">
+            <div class="container">
+                <div class="logo">
+                  <a class="navbar-brand text-white cat_font res_large_device" href="#">SHOP BY CATEGORY
+                    <span> <i class="fa-solid fa-bars text-white ms-2"></i></span></a>
+                  <div class="profile navbar-brand text-white res_small_device" >
+                    <a href="" class="text-white"> <i class="fa-solid fa-user"></i>
+                    <span>My Account</span></a>
+                </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link actived text-white" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="about_us.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-white" href="product_details.html" id="navbarDropdownMenuLink" role="button"
+                              data-bs-toggle="dropdown" aria-expanded="false">
+                              PRODUCTS
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="product_details.html">Product Details</a></li>
+                              <li><a class="dropdown-item" href="#">Page 2</a></li>
+                              <li><a class="dropdown-item" href="#">Page 3</a></li>
+                          </ul>
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="FAQ.html">FRESH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="wishList.html">FROZEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="shoppingCart.html">SHOP</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGE
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Page 1</a></li>
+                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                <li><a class="dropdown-item" href="#">Page 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="blog.html" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                BLOG
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="blog-details.html">Blog </a></li>
+                                <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                                <li><a class="dropdown-item" href="#">Blog 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">MEGAMENU</a>
+                        </li>
+                    </ul>
+                   
+                </div>
+                 <!-- --------------------- -->
+                 <div class="profile res_large_device">
+                  <a class="text-white overflow_1199" href="#"><i class="fa-brands fa-buffer me-2"></i><span>Best Offer</span></a>
+                 <a href="" class="text-white"><span class="ms-2"> | </span>
+                  <i class="fa-solid fa-user ms-2"></i>
+                  <span>My Account</span></a> 
+                </div>
+              <!-- ---------------------- -->
+            </div>
+        </nav>
+    </section>
+  </header>
+
+
+    <section id="WishList" class="pb-5 paddingTop">
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-8 res_cart_col_8">
             <div class="wishlist_head">
               <div class="row">
                 <div class="col-md-6">
-                  <h5>Products</h5>
+                  <h5 class="wishHead_product">Products</h5>
                 </div>
                 <div class="col-md-3">
-                  <h5>Quantity</h5>
+                  <h5 class="wishHead_quantity">Quantity</h5>
                 </div>
                 <div class="col-md-3">
                   <h5 class="wishHead_action">Sub Total</h5>
@@ -58,35 +148,41 @@
             <div class="wishlist_body">
               <div class="wishlist_main_content">
                 <div class="row m-0">
-                  <div class="col-md-6">
-                    <div class="wishlist_content py-4 d-flex">
-                      <img src="assets/img/wishlist/1.png" alt="" />
-                      <span>
-                        <h6 class="wishContent_review">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="far fa-star"></i>
-                        </h6>
-                        <h5>Organic Cereal Chocolate</h5>
-                        <h6 class="wishCart_price">
-                          <strong>$100</strong>
-                          <small><s class="text-secondary"> $80</s></small>
-                        </h6>
-                      </span>
+                  <div class="col-md-6 res_col_6">
+                    <div class="wishlist_content py-3 d-flex">
+                      <div class="row m-0">
+                          <div class="col-md-6 p-0">
+                              <img src="assets/img/wishlist/1.png" alt="" />
+                          </div>
+                          <div class="col-md-6 p-0">
+                              <span class="wishList_res">
+                                <h6 class="wishContent_review">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="far fa-star"></i>
+                                </h6>
+                                <h5>Organic Cereal Chocolate</h5>
+                                <h6 class="wishCart_price">
+                                  <strong>$100</strong>
+                                  <small><s class="text-secondary"> $80</s></small>
+                                </h6>
+                              </span>
+                          </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 res_cart_col_3">
                     <h6 class="cartQuantity">
                       <div class="qty">
                         <div><a href="">+</a></div>
-                        <div class="mt-2 mb-2">01</div>
+                        <div class="t_b_margin">01</div>
                         <div><a href="">-</a></div>
                       </div>
                     </h6>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 res_cart_col_3">
                     <h5 class="wishCartSubTotal">
                       $ 40.0
                       <a href=""
@@ -95,35 +191,50 @@
                     </h5>
                   </div>
                   <div class="col-md-12 wishList_border_bottom"></div>
-                  <div class="col-md-6">
-                    <div class="wishlist_content py-4 d-flex">
-                      <img src="assets/img/wishlist/1.png" alt="" />
-                      <span>
-                        <h6 class="wishContent_review">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="far fa-star"></i>
-                        </h6>
-                        <h5>Organic Cereal Chocolate</h5>
-                        <h6 class="wishCart_price">
-                          <strong>$100</strong>
-                          <small><s class="text-secondary"> $80</s></small>
-                        </h6>
-                      </span>
+
+
+
+
+
+
+
+
+                  
+                  <div class="col-md-6 res_col_6">
+                    <div class="wishlist_content py-3 d-flex">
+                      <div class="row m-0">
+                          <div class="col-md-6 p-0">
+                              <img src="assets/img/wishlist/1.png" alt="" />
+                          </div>
+                          <div class="col-md-6 p-0">
+                              <span class="wishList_res">
+                                <h6 class="wishContent_review">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="far fa-star"></i>
+                                </h6>
+                                <h5>Organic Cereal Chocolate</h5>
+                                <h6 class="wishCart_price">
+                                  <strong>$100</strong>
+                                  <small><s class="text-secondary"> $80</s></small>
+                                </h6>
+                              </span>
+                          </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 res_cart_col_3">
                     <h6 class="cartQuantity">
                       <div class="qty">
                         <div><a href="">+</a></div>
-                        <div class="mt-2 mb-2">01</div>
+                        <div class="t_b_margin">01</div>
                         <div><a href="">-</a></div>
                       </div>
                     </h6>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 res_cart_col_3">
                     <h5 class="wishCartSubTotal">
                       $ 40.0
                       <a href=""
@@ -132,35 +243,43 @@
                     </h5>
                   </div>
                   <div class="col-md-12 wishList_border_bottom"></div>
-                  <div class="col-md-6">
-                    <div class="wishlist_content py-4 d-flex">
-                      <img src="assets/img/wishlist/1.png" alt="" />
-                      <span>
-                        <h6 class="wishContent_review">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="far fa-star"></i>
-                        </h6>
-                        <h5>Organic Cereal Chocolate</h5>
-                        <h6 class="wishCart_price">
-                          <strong>$100</strong>
-                          <small><s class="text-secondary"> $80</s></small>
-                        </h6>
-                      </span>
+
+
+                  <div class="col-md-6 res_col_6">
+                    <div class="wishlist_content py-3 d-flex">
+                      <div class="row m-0">
+                          <div class="col-md-6 p-0">
+                              <img src="assets/img/wishlist/1.png" alt="" />
+                          </div>
+                          <div class="col-md-6 p-0">
+                              <span class="wishList_res">
+                                <h6 class="wishContent_review">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="far fa-star"></i>
+                                </h6>
+                                <h5>Organic Cereal Chocolate</h5>
+                                <h6 class="wishCart_price">
+                                  <strong>$100</strong>
+                                  <small><s class="text-secondary"> $80</s></small>
+                                </h6>
+                              </span>
+                          </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 res_cart_col_3">
                     <h6 class="cartQuantity">
                       <div class="qty">
                         <div><a href="">+</a></div>
-                        <div class="mt-2 mb-2">01</div>
+                        <div class="t_b_margin">01</div>
                         <div><a href="">-</a></div>
                       </div>
                     </h6>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-3 res_cart_col_3">
                     <h5 class="wishCartSubTotal">
                       $ 40.0
                       <a href=""
@@ -173,7 +292,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 res_col_6">
                 <div class="searchCart">
                   <form class="d-flex blog_search_border">
                     <input
@@ -191,8 +310,8 @@
                   </form>
                 </div>
               </div>
-              <div class="col-md-6">
-                <h5>
+              <div class="col-md-6 res_col_6">
+                <h5 class="rec_center">
                   <a href="" class="btn btn-outline-success updateCart"
                     >Update Cart</a
                   >
@@ -201,7 +320,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 res_cart_col_4">
             <div class="shoppingCart_category">
               <div class="">
                 <h4>Category</h4>
@@ -210,7 +329,7 @@
                 <h6>Shipping <span class="float_right">$60.0</span></h6>
                 <h6>Incl.Vat <span class="float_right">$90.0</span></h6>
                 <p></p>
-                <h5>Total Value <span class="float_right">$250.0</span></h5>
+                <h5>Total Value <span class="float_right">= $250.0</span></h5>
                 <p></p>
                 <div class="row">
                   <div class="col_5 paymentCard">
@@ -266,10 +385,12 @@
       </div>
     </section>
 
-    <section id="About_Shipping_System" class="py-5 mb-5">
+    <!-- -------------------------------------------- -->
+    
+    <section id="About_Shipping_System" class="py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 res_col_3_768 mb-3">
             <div class="about_freeShipping">
               <div class="about_freeShipping_content d-flex">
                 <i class="fa-solid fa-headset"></i>
@@ -280,7 +401,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 res_col_3_768 mb-3">
             <div class="about_freeShipping">
               <div class="about_freeShipping_content d-flex">
                 <i class="fa-solid fa-headset"></i>
@@ -291,7 +412,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 res_col_3_768 mb-3">
             <div class="about_freeShipping">
               <div class="about_freeShipping_content d-flex">
                 <i class="fa-solid fa-headset"></i>
@@ -302,7 +423,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 res_col_3_768 mb-3">
             <div class="about_freeShipping">
               <div class="about_freeShipping_content d-flex">
                 <i class="fa-solid fa-headset"></i>
@@ -316,13 +437,12 @@
         </div>
       </div>
     </section>
-
-    <!-- ---------------------------------- -->
+  
     <section id="Contact_cta" class="mb-5">
       <div class="container">
-        <div class="row">
+        <div class="row py-4">
           <div class="col-md-6">
-            <div class="cta_contact_text py-5">
+            <div class="cta_contact_text">
               <h3>
                 Subscribe And Get Free
                 <span class="text-warning">30%</span> Discount For All Products
@@ -330,8 +450,8 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="contact_cta_btn py-5">
-              <form class="d-flex">
+            <div class="contact_cta_btn">
+              <form class="contact_cta_D_flex">
                 <input
                   class="me-2 search_field"
                   type="search"
@@ -350,30 +470,36 @@
         </div>
       </div>
     </section>
-
+  
+    <!-- -------------------------------------------- -->
+  
     <section id="Contact" class="py-3">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <div class="contact_logo">
-              <img src="assets/img/logo/Capture-removebg-preview.png" alt="" />
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
-                ducimus dolor hic nostrum odit, odio corrupti um dolor sit amet
-                consectetur, adipisicing elit.
-              </p>
-              <h5>Follow Us</h5>
-              <div class="contact_icon">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <div class="col-md-6 res_col_6">
+            <div class="row mb-5">
+              <div class="col-md-6">
+                <div class="contact_logo">
+                  <img
+                    src="assets/img/logo/Capture-removebg-preview.png"
+                    alt=""
+                  />
+                  <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Dolore ducimus dolor hic nostrum odit, odio corrupti um
+                    dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                  <h5>Follow Us</h5>
+                  <div class="contact_icon">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-4">
+  
+              <div class="col-md-3 res_col_3_2">
                 <div class="contact_info">
                   <h5>Information</h5>
                   <p><a href="#">About Us</a></p>
@@ -385,8 +511,8 @@
                   <p><a href="#">Support Center</a></p>
                 </div>
               </div>
-
-              <div class="col-md-4">
+  
+              <div class="col-md-3 res_col_3_2">
                 <div class="contact_info">
                   <h5>Category</h5>
                   <p><a href="#">Backery & Pastry</a></p>
@@ -398,8 +524,11 @@
                   <p><a href="#">Snacks items</a></p>
                 </div>
               </div>
-
-              <div class="col-md-4">
+            </div>
+          </div>
+          <div class="col-md-6 res_col_6">
+            <div class="row">
+              <div class="col-md-5 res_col_5_2">
                 <div class="contact_info">
                   <h5>Contacts Us</h5>
                   <h6><a href="#">Location</a></h6>
@@ -418,78 +547,78 @@
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="contact_info">
-              <h5>Instagram</h5>
-              <p><a href="#">Follow Our Instagram Page</a></p>
-              <div class="row">
-                <div class="col-md-4 insta_pic text-center">
-                  <div class="contact_insta_img">
-                    <a
-                      href="assets/img/footer/faluda2.jpg"
-                      data-lightbox="mygallery"
-                      data-title="Caption-1"
-                    >
-                      <img src="assets/img/footer/faluda2.jpg" alt=""
-                    /></a>
-                  </div>
-                </div>
-                <div class="col-md-4 insta_pic text-center">
-                  <div class="contact_insta_img">
-                    <a
-                      href="assets/img/footer/dragon3.jpg"
-                      data-lightbox="mygallery"
-                      data-title="Caption-2"
-                    >
-                      <img src="assets/img/footer/dragon3.jpg" alt=""
-                    /></a>
-                  </div>
-                </div>
-                <div class="col-md-4 insta_pic text-center">
-                  <div class="contact_insta_img">
-                    <a
-                      href="assets/img/footer/pizza2.jpg"
-                      data-lightbox="mygallery"
-                      data-title="Caption-3"
-                    >
-                      <img src="assets/img/footer/pizza2.jpg" alt=""
-                    /></a>
-                  </div>
-                </div>
-                <div class="col-md-4 insta_pic text-center">
-                  <div class="contact_insta_img">
-                    <a
-                      href="assets/img/footer/biscute.png"
-                      data-lightbox="mygallery"
-                      data-title="Caption-4"
-                    >
-                      <img src="assets/img/footer/biscute.png" alt=""
-                    /></a>
-                  </div>
-                </div>
-                <div class="col-md-4 insta_pic text-center">
-                  <div class="contact_insta_img">
-                    <a
-                      href="assets/img/footer/strawberry.jpg"
-                      data-lightbox="mygallery"
-                      data-title="Caption-5"
-                    >
-                      <img src="assets/img/footer/strawberry.jpg" alt=""
-                    /></a>
-                  </div>
-                </div>
-                <div class="col-md-4 insta_pic text-center">
-                  <div class="contact_insta_img">
-                    <a
-                      href="assets/img/footer/fruits1.jpg"
-                      data-lightbox="mygallery"
-                      data-title="Caption-6"
-                    >
-                      <img src="assets/img/footer/fruits1.jpg" alt=""
-                    /></a>
+  
+              <div class="col-md-7 res_col_7">
+                <div class="contact_info">
+                  <h5>Instagram</h5>
+                  <p><a href="#">Follow Our Instagram Page</a></p>
+                  <div class="row">  
+                    <div class="col-md-4 insta_pic text-center">
+                      <div class="contact_insta_img">
+                        <a
+                          href="assets/img/footer/faluda2.jpg"
+                          data-lightbox="mygallery"
+                          data-title="Caption-1"
+                        >
+                          <img src="assets/img/footer/faluda2.jpg" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 insta_pic text-center">
+                      <div class="contact_insta_img">
+                        <a
+                          href="assets/img/footer/dragon3.jpg"
+                          data-lightbox="mygallery"
+                          data-title="Caption-2"
+                        >
+                          <img src="assets/img/footer/dragon3.jpg" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 insta_pic text-center">
+                      <div class="contact_insta_img">
+                        <a
+                          href="assets/img/footer/pizza2.jpg"
+                          data-lightbox="mygallery"
+                          data-title="Caption-3"
+                        >
+                          <img src="assets/img/footer/pizza2.jpg" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 insta_pic text-center">
+                      <div class="contact_insta_img">
+                        <a
+                          href="assets/img/footer/biscute.png"
+                          data-lightbox="mygallery"
+                          data-title="Caption-4"
+                        >
+                          <img src="assets/img/footer/biscute.png" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 insta_pic text-center">
+                      <div class="contact_insta_img">
+                        <a
+                          href="assets/img/footer/strawberry.jpg"
+                          data-lightbox="mygallery"
+                          data-title="Caption-5"
+                        >
+                          <img src="assets/img/footer/strawberry.jpg" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col-md-4 insta_pic text-center">
+                      <div class="contact_insta_img">
+                        <a
+                          href="assets/img/footer/fruits1.jpg"
+                          data-lightbox="mygallery"
+                          data-title="Caption-6"
+                        >
+                          <img src="assets/img/footer/fruits1.jpg" alt=""
+                        /></a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -508,19 +637,32 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="payment text-center">
-                <a href=""
-                  ><img src="assets/img/payments/1.jpg" alt="" srcset=""
-                /></a>
-                <a href=""
-                  ><img src="assets/img/payments/2.jpg" alt="" srcset=""
-                /></a>
-                <a href=""
-                  ><img src="assets/img/payments/3.jpg" alt="" srcset=""
-                /></a>
-                <a href=""
-                  ><img src="assets/img/payments/4.jpg" alt="" srcset=""
-                /></a>
+              <div class="row">
+                <div class="col_5 payment">
+                  <a href=""
+                    ><img src="assets/img/payments/1.jpg" alt="" srcset=""
+                  /></a>
+                </div>
+                <div class="col_5 payment">
+                  <a href=""
+                    ><img src="assets/img/payments/2.jpg" alt="" srcset=""
+                  /></a>
+                </div>
+                <div class="col_5 payment">
+                  <a href=""
+                    ><img src="assets/img/payments/3.jpg" alt="" srcset=""
+                  /></a>
+                </div>
+                <div class="col_5 payment">
+                  <a href=""
+                    ><img src="assets/img/payments/5.jpg" alt="" srcset=""
+                  /></a>
+                </div>
+                <div class="col_5 payment">
+                  <a href=""
+                    ><img src="assets/img/payments/6.png" alt="" srcset=""
+                  /></a>
+                </div>
               </div>
             </div>
             <div class="col-md-4">
@@ -532,7 +674,9 @@
         </div>
       </div>
     </footer>
-
+  
+  
+  
     <!-- jquery light box cdn -->
     <script src="assets/js/lightbox-plus-jquery.min.js"></script>
     <!-- jquery cdn -->
@@ -549,5 +693,11 @@
     ></script>
     <!-- slick slide cdn -->
     <script src="./assets/js/main.js"></script>
+    
+    <!-- ------- -->
+    <div>
+      <!-- ------ -->
+  
   </body>
-</html>
+  </html>
+  
