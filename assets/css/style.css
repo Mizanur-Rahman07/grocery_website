@@ -1635,20 +1635,48 @@ a {
 }
 /* ------------------------------------------ */
 
-.select_qestion{
-    background-color: #f8f7f7;
-    border: 0;
-}
-.faqShopping .form-select:focus {
-	box-shadow: 0 0 0 .10rem #15673b;
-}
-.faqShopping .form-select-lg {
-	font-size: 1.15rem;
+.faqShopping_accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.15rem;
     font-weight: 500;
     font-family: 'Acme', sans-serif;
-    line-height: 1.2;
-    padding: 15px;
-}
+    transition: 0.4s;
+  }
+  
+  .faqShopping_active, .faqShopping_accordion:hover {
+    background-color: #ccc;
+    /* border: 1px  solid green; */
+  }
+  
+  .faqShopping_accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .faqShopping_active:after {
+    content: "\2212";
+  }
+  
+  .faqShopping_panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 26px;
+  }
 
 /* ---------------------------------------- */
 
@@ -1667,11 +1695,11 @@ a {
     margin-left: 15px;
 }
 .detailsMainImg img {
-    width: 100%;
-    height: auto;
-    background-color: #e9e3e3;
-    padding: 130px 45px;
-    border-radius: 2px;
+	width: 100%;
+	height: auto;
+	background-color: #e9e3e3;
+	padding: 130px 45px;
+	border-radius: 2px;
 }
 .details_review{
     /* padding-top: 35px; */
@@ -1702,6 +1730,147 @@ a {
     background-color: #1aa45a;
     padding: 6px;
     color: white;
+}
+.productDetails_availableSize{
+    margin: 30px 0 0 0;
+}
+.productDetails_availableSize .form-select {
+	width: 30%;
+}
+.productDetails_quantityTitle{
+    margin: 30px 0 0 0;
+}
+.productDetails_quantity{
+    display: flex;
+}
+.proQuantity .proQty {
+	width: 112px;
+	border: 1px solid #e6e1e1;
+	padding: 7px 7px;
+	margin: 15px 0;
+	border-radius: 2px;
+}
+
+.proQuantity a{
+    color: black;
+  
+}
+.proQuantity .proQtyP {
+	background: #f4f1f1;
+	padding: 5px 10px;
+}
+.proQuantity .proQtyN {
+	background: #f4f1f1;
+	padding: 5px 11px;
+}
+.proQuantity .proQtyNo{
+    padding: 0 10px;
+}
+
+
+.productDetailsCart {
+	border: 0;
+	border-radius: 2px;
+	padding: 8px 18px;
+	color: white;
+	background-color: #1aa45a;
+	transition: 0.5s;
+	margin: 15px;
+}
+
+.productDetailsCart:hover {
+    color: white;
+    background-color: orange;
+}
+.proQtyUpDown{
+    border: 1px solid #e6e1e1;
+    padding: 10px 15px;
+}
+.proQtyUpDown i {
+	font-size: 15px;
+}
+.proQtyUpDown {
+	border: 1px solid #e6e1e1;
+	padding: 7px 15px;
+	margin-top: 15px;
+	margin-bottom: 24px;
+    margin-right: 15px;
+
+}
+.proQtyUpDown a{
+    color: black;
+}
+.productDetails_content .productDetails_SBTC h6 {
+	font-size: 15px;
+	line-height: 26px;
+	color: rgb(78, 77, 77);
+}
+.productDetails_review{
+    display: flex;
+}
+.disAddReview{
+    border-bottom: 1px solid #e6e1e1;
+}
+.disAddReview_menu{
+    margin-left: 35%;
+}
+.disAddReview_menu p{
+    margin-left: 25px;
+
+}
+.productDetails_discription{
+    margin-top: 25px;
+}
+.productDetails_discription h5{
+    font-size: 20px;
+}
+
+.productDetails_discription p{
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(78, 77, 77);
+}
+.productDetails_feature h5 {
+	font-size: 20px;
+	padding: 15px 0;
+}
+.productDetails_feature p{
+    font-size: 15px;
+    color: rgb(78, 77, 77);
+}
+.productDetails_feature i {
+	font-size: 18px;
+	color: green;
+}
+.productDetails_shopping h5{
+    font-size: 20px;
+	padding: 15px 0;
+}
+.productDetails_shopping p{
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(78, 77, 77);
+}
+.productDetails_disAddReview_ofr{
+    margin-top: 35px;
+}
+.productDetails_disAddReview_img {
+    width: 100%;
+    height: 450px;
+}
+.productDetails_disAddReview_ofr_text p{
+    color: orange;
+    margin-bottom: 0;
+}
+.productDetails_disAddReview_ofr_text h2{
+    color: white;
+}
+.productDetails_disAddReview_ofr_text h6{
+    color: white;
+}
+.productDetails_disAddReview_ofr_text h5{
+    font-size: 26px;
+    color: orange;
 }
 
 /* light box */
