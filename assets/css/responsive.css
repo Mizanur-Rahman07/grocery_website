@@ -1738,6 +1738,9 @@ width: 33.33%;
 .featured_content h4 {
 	font-size: 18px;
 }
+.res_paddingLeft{
+    padding-left: 0%;
+}
 /* ---------------Product Details Responsive End---------------- */
 
 
@@ -2521,6 +2524,7 @@ width: 33.33%;
 .productDetails_largeDevice {
 	display: none !important;
 }
+
 /* ---------------Product Details Responsive End---------------- */
 
 }

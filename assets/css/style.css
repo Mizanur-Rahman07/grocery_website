@@ -1872,7 +1872,15 @@ a {
     font-size: 26px;
     color: orange;
 }
-
+.res_paddingLeft{
+    padding-left: 20%;
+}
+#ProductDetails_DisAddReview .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: orange;
+}
+.nav-tabs .nav-link {
+	color: black;
+}
 /* light box */
 .lb-data .lb-close {
     background: url(../img/lightbox-img/close.png) top right no-repeat;
