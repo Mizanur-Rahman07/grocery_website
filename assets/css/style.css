@@ -105,6 +105,15 @@ a {
   .menu ul li:hover::after {
     width: 70%;
   }
+  
+.sub_menu_hover{
+    display: none;
+    transition: 0.5s;
+}
+.menu ul li:hover .sub_menu_hover{
+    display: block;
+    transition: 0.5s;
+}
 
 .bg_color {
     background-color: rgb(29, 95, 112);
@@ -1900,3 +1909,5 @@ a {
 }
 
 /* light box */
+
+
