@@ -204,7 +204,7 @@ For Extra-large size device: 1200px and more */
 
 @media (min-width: 1024px)and (max-width:1199px){
     .container {
-        width: 1025px;
+        width: 1020px;
 }
 .offer_icon {
 	padding-left:0%;
@@ -489,7 +489,7 @@ For Extra-large size device: 1200px and more */
 
 @media (min-width: 768px)and (max-width:1023px){
     .container {
-        width: 770px;
+        width: 760px;
 }
 .col_md_3_change {
     width: 50%;
@@ -1741,6 +1741,12 @@ width: 33.33%;
 .res_paddingLeft{
     padding-left: 0%;
 }
+
+/* -------------- */
+.payment img {
+	margin: 6px 12px;
+}
+/* ----------------- */
 /* ---------------Product Details Responsive End---------------- */
 
 
