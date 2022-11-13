@@ -6,7 +6,7 @@ For Extra-large size device: 1200px and more */
 
 @media (min-width: 1400px)and (max-width:1620px){
     .container {
-        width: 1400px;
+        width: 1380px;
 }
 .featured_content h2{
     font-size: 25px;
@@ -68,7 +68,7 @@ For Extra-large size device: 1200px and more */
 
 @media (min-width: 1200px)and (max-width:1399px){
     .container {
-        width: 1200px;
+        width: 1180px;
 }
 
 .featured_content h2{
@@ -204,7 +204,7 @@ For Extra-large size device: 1200px and more */
 
 @media (min-width: 1024px)and (max-width:1199px){
     .container {
-        width: 1020px;
+        width: 1004px;
 }
 .offer_icon {
 	padding-left:0%;
@@ -489,7 +489,7 @@ For Extra-large size device: 1200px and more */
 
 @media (min-width: 768px)and (max-width:1023px){
     .container {
-        width: 760px;
+        width: 750px;
 }
 .col_md_3_change {
     width: 50%;
@@ -1084,7 +1084,7 @@ width: 33.33%;
 /* --------------------------------------- */
 @media (min-width: 480px)and (max-width:767px){
     .container {
-        width: 480px;
+        width: 460px;
 }
 .col_md_3_change {
     width: 100%;
