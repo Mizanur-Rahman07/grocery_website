@@ -31,16 +31,145 @@
 
 <body>
     <header class="bg_color">
+        <section id="Topbar" class="">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="topLeftContent d-flex">
+                        <div class="topber_lang text-white">
+                            <i class="fa-solid fa-globe"></i>
+                            <select class="text-white" aria-label="Default select example">
+                                <option selected>English</option>
+                                <option value="1">বাংলা</option>
+                                <option value="2">हिन्दी</option>
+                                <option value="3">中國人</option>
+                            </select>
+                        </div>
+                        <div class="contact_info">
+                            <i class="fa-regular fa-envelope"></i
+                            ><a href="mailto:contact@example.com">mizan@gmail.com</a>
+                        </div>
+                        <div class="topQuery">
+                            <i class="fa-regular fa-circle-question me-1"></i>
+                            <a href="#">Free Query</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                  <div class="topRightContent d-flex">
+                        <a href="#"><i class="fa-solid fa-location-dot me-1"></i> Location </a>
+                        <a href="#"><i class="fa-solid fa-truck me-1"></i> Order Tracking </a>
+                        <a href="#"><i class="fa-solid fa-file-arrow-down me-1"></i> App Download </a>
+                        <div class="topber_usd text-white">
+                            <select class="text-white" aria-label="Default select example">
+                                <option selected>$ USD</option>
+                                <option value="1">টাকা</option>
+                                <option value="2">€ Uro</option>
+                            </select>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section id="MidNavber" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="midlogoSec d-flex">
+                        <div class="midLogo">
+                            <img src="assets/img/logo/midlogo.png" alt="" />
+                        </div>
+                        <div class="midNavCall d-flex">
+                            <i class="fa-solid fa-headphones"></i>
+                            <div class="midNavCallNo">
+                                <h6 class="text-warning">01755463304</h6>
+                                <p class="text-white">Free Call Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="midNavSrcCate d-flex">
+                        <div class="midNavCategory">
+                            <select class="text-muted" aria-label="Default select example">
+                                <option selected>All Category</option>
+                                <option value="1">Grocery</option>
+                                <option value="2">Fruits</option>
+                                <option value="3">Vegetable</option>
+                                <option value="3">Medecine</option>
+                                <option value="3">Electronics</option>
+                                <option value="3">Kids</option>
+                                <option value="3">Man</option>
+                                <option value="3">Owman</option>
+                            </select>
+                        </div>
+                        <div class="midNavSearch">
+                            <form class="d-flex midNav_search_border mb-4">
+                                <input class="me-2 midNav_search_field" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success midNav_search_btn" type="submit"><i
+                                        class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="midNavArrowLoveCart">
+                        <div class="midNavArrowLoveCartIcon d-flex">
+                            <div class="midNavArrowIcon">
+                                <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                            <div class="midNavLoveIcon">
+                                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                <div class="midNavLovePoint">
+                                    <p>5</p>
+                                </div>
+                            </div>
+                            <div class="midNavCrtIcon d-flex">
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <span>
+                                    <p>Cart</p>
+                                    <h6>$85.00</h6>
+                                </span>
+                                <div class="midNavCartPoint">
+                                    <p>5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
         <section id="Menu" class="">
           <nav class="navbar navbar-expand-lg navbar-light bg_color">
               <div class="container">
                   <div class="logo">
-                    <a class="navbar-brand text-white cat_font res_large_device" href="#">SHOP BY CATEGORY
-                      <span> <i class="fa-solid fa-bars text-white ms-2"></i></span></a>
-                    <div class="profile navbar-brand text-white res_small_device" >
-                      <a href="" class="text-white"> <i class="fa-solid fa-user"></i>
+                        <div class="dropdown">
+                            <div class="navbar-brand navColor cat_font res_large_device " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">SHOP BY CATEGORY
+                            <span><i class="fa-solid fa-bars navColor ms-2"></i></span></div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <!-- mobile view -->
+                    <div class="profile navbar-brand navColor res_small_device" >
+                      <a href="" class="navColor">
+                         <!-- <i class="fa-solid fa-user"></i> -->
+                    <img src="assets/img/logo/avatar-1.png" alt="" srcset="">
                       <span>My Account</span></a>
                   </div>
+                        <!-- mobile view -->
                   </div>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                       data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -50,13 +179,13 @@
                   <div class="collapse navbar-collapse menu " id="navbarNavDropdown">
                       <ul class="navbar-nav">
                           <li class="nav-item">
-                              <a class="nav-link actived text-white" aria-current="page" href="index.html">HOME</a>
+                              <a class="nav-link actived navColor" aria-current="page" href="index.html">HOME</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link text-white" href="about_us.html">ABOUT</a>
+                              <a class="nav-link navColor" href="about_us.html">ABOUT</a>
                           </li>
                           <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-white" href="product_details.html" id="navbarDropdownMenuLink" role="button"
+                            <a class="nav-link dropdown-toggle navColor" href="product_details.html" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 PRODUCTS
                             </a>
@@ -67,16 +196,16 @@
                             </ul>
                         </li>
                           <li class="nav-item">
-                              <a class="nav-link text-white" href="FAQ.html">FRESH</a>
+                              <a class="nav-link navColor" href="FAQ.html">FRESH</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link text-white" href="wishList.html">FROZEN</a>
+                              <a class="nav-link navColor" href="wishList.html">FROZEN</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link text-white" href="shoppingCart.html">SHOP</a>
+                              <a class="nav-link navColor" href="shoppingCart.html">SHOP</a>
                           </li>
                           <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button"
+                              <a class="nav-link dropdown-toggle navColor" href="#" id="navbarDropdownMenuLink" role="button"
                                   data-bs-toggle="dropdown" aria-expanded="false">
                                   PAGE
                               </a>
@@ -87,7 +216,7 @@
                               </ul>
                           </li>
                           <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle text-white" href="blog.html" id="navbarDropdownMenuLink" role="button"
+                              <a class="nav-link dropdown-toggle navColor" href="blog.html" id="navbarDropdownMenuLink" role="button"
                                   data-bs-toggle="dropdown" aria-expanded="false">
                                   BLOG
                               </a>
@@ -98,21 +227,35 @@
                               </ul>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link text-white" href="contact.html">CONTACT</a>
+                              <a class="nav-link navColor" href="contact.html">CONTACT</a>
                           </li>
                       </ul>
                      
                   </div>
                    <!-- --------------------- -->
-                   <div class="profile res_large_device">
-                    <a class="text-white overflow_1199" href="#"><i class="fa-brands fa-buffer me-2"></i><span>Best Offer</span></a>
-                   <a href="" class="text-white"><span class="ms-2"> | </span>
-                    <i class="fa-solid fa-user ms-2"></i>
-                    <span>My Account</span></a> 
+                   <div class="profile res_large_device d-flex">
+                        <a class="navColor overflow_1199" href="#"><i class="fa-regular fa-star-half-stroke me-1"></i><span>Best Offer</span></a>
+                        <div href="" class="navColor"><span class="ms-2"> | </span>
+                            <!-- <i class="fa-solid fa-user ms-2"></i> -->
+                            <img src="assets/img/logo/avatar-1.png" alt="" srcset="">
+                            <span>My Account</span>
+                        </div> 
                   </div>
                 <!-- ---------------------- -->
               </div>
           </nav>
+          
+          <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-md">
+                <a class="navbar-brand" href="#">Navbar</a>
+            </div>
+          </nav> -->
+          <div class=" background-res d-flex justify-content-start align-items-center navSubMenu" 
+                style="background-image: url('./assets/img/home-1/001.png');">
+                <div class="container">
+                    <p class="n_s_m_p mb-0"><span class="n_s_m">Grocery | Home</span> | Version 1</p>
+                </div>
+          </div>
       </section>
     </header>
 
@@ -266,11 +409,242 @@
 
     <section id="Feature_product" class="mb-5">
         <div class="container">
-            <h2 class="py-4"><span class="ftColor py-3">Featured</span> Product</h2>
+            <h2 class="pt-4 pb-2"><span class="ftColor py-3">Featured</span> Product</h2>
             <div class="planLine_2 mb-4"></div>
+            <div class="responsive">
+                <div class="slick_slide">
+                    <div class="featured_col f_border text-center">
+                        <div class="h_S_N_S h_S_N_S_none">
+                            <p>Sale</p>
+                        </div>
+                        <div class="featured_img">
+                            <img src="assets/img/home-1/food_box.png" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="featured_content">
+                            <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <!-- <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6> -->
+                            <h6 class="featured_icon text-warning">
+                                <input type="radio" name="rating1" id="rating1">
+                                <label for="rating1" class="fas fa-star " ></label>
+                                <input type="radio" name="rating1" id="rating2">
+                                <label for="rating2" class="fas fa-star " ></label>
+                                <input type="radio" name="rating1" id="rating3">
+                                <label for="rating3" class="fas fa-star " ></label>
+                                <input type="radio" name="rating1" id="rating4">
+                                <label for="rating4" class="fas fa-star " ></label>
+                                <input type="radio" name="rating1" id="rating5">
+                                <label for="rating5" class="far fa-star " ></label>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick_slide">
+                    <div class="featured_col f_border text-center">
+                        <div class="h_S_N_S h_S_N_S_hot">
+                            <p>HOT</p>
+                        </div>
+                        <div class="featured_img">
+                            <img src="assets/img/home-1/food_box.png" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="featured_content">
+                            <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                           <h6 class="featured_icon text-warning">
+                                <input type="radio" name="rating1" id="rating1">
+                                <label for="rating1" class="fas fa-star"></label>
+                                <input type="radio" name="rating1" id="rating2">
+                                <label for="rating2" class="fas fa-star"></label>
+                                <input type="radio" name="rating1" id="rating3">
+                                <label for="rating3" class="fas fa-star"></label>
+                                <input type="radio" name="rating1" id="rating4">
+                                <label for="rating4" class="fas fa-star"></label>
+                                <input type="radio" name="rating1" id="rating5">
+                                <label for="rating5" class="far fa-star"></label>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick_slide">
+                    <div class="featured_col f_border text-center">
+                        <div class="h_S_N_S h_S_N_S_none">
+                            <p></p>
+                        </div>
+                        <div class="featured_img">
+                            <img src="assets/img/home-1/food_box.png" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="featured_content">
+                            <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick_slide">
+                    <div class="featured_col f_border text-center">
+                        <div class="h_S_N_S h_S_N_S_out">
+                            <p>Strock Out</p>
+                        </div>
+                        <div class="featured_img">
+                            <img src="assets/img/home-1/food_box.png" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="featured_content">
+                            <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick_slide">
+                    <div class="featured_col f_border text-center">
+                        <div class="h_S_N_S h_S_N_S_new">
+                            <p>New</p>
+                        </div>
+                        <div class="featured_img">
+                            <img src="assets/img/home-1/food_box.png" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="featured_content">
+                            <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick_slide">
+                    <div class="featured_col f_border text-center">
+                        <div class="h_S_N_S h_S_N_S_percent">
+                            <p>-20%</p>
+                        </div>
+                        <div class="featured_img">
+                            <img src="assets/img/home-1/food_box.png" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="featured_content">
+                            <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+<!--            
             <div class="row">
                 <div class="col_5_change mb-3">
-                    <div class="featured_col border text-center">
+                    <div class="featured_col f_border text-center">
                         <div class="featured_img">
                             <img src="assets/img/home-1/food_box.png" alt="" srcset="">
                         </div>
@@ -298,7 +672,7 @@
                 </div>
 
                 <div class="col_5_change mb-3">
-                    <div class="featured_col border text-center">
+                    <div class="featured_col f_border text-center">
                         <div class="featured_img">
                             <img src="assets/img/home-1/food_box.png" alt="" srcset="">
                         </div>
@@ -326,7 +700,7 @@
                 </div>
 
                 <div class="col_5_change mb-3">
-                    <div class="featured_col border text-center">
+                    <div class="featured_col f_border text-center">
                         <div class="featured_img">
                             <img src="assets/img/home-1/food_box.png" alt="" srcset="">
                         </div>
@@ -354,7 +728,7 @@
                 </div>
 
                 <div class="col_5_change mb-3">
-                    <div class="featured_col border text-center">
+                    <div class="featured_col f_border text-center">
                         <div class="featured_img">
                             <img src="assets/img/home-1/food_box.png" alt="" srcset="">
                         </div>
@@ -382,7 +756,7 @@
                 </div>
 
                 <div class="col_5_change mb-3">
-                    <div class="featured_col border text-center">
+                    <div class="featured_col f_border text-center">
                         <div class="featured_img">
                             <img src="assets/img/home-1/food_box.png" alt="" srcset="">
                         </div>
@@ -409,7 +783,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -459,21 +833,592 @@
         </div>
     </section>
 
-    <!-- exmple -->
-    <!-- <div class="our_partner_slide ">
-        <div class="OPS_img">
+
+    <section id="Exclusive_Product" class="py-5">
+        <div class="container">
+            <h2 class="py-4"><span class="ftColor">Exclusive</span> Product</h2>
+                <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+                    <li class="nav-item mb-1" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-fruits" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Fruits </button>
+                    </li>
+                    <li class="nav-item mb-1" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-bakery" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Bakery</button>
+                    </li>
+                    <li class="nav-item mb-1" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-fetured" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Fetured</button>
+                    </li>
+                    <li class="nav-item mb-1" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-recent" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Recent</button>
+                    </li>
+                    <li class="nav-item mb-1" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-frozen" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Freozen</button>
+                    </li>
+              </ul>
+              <div class="planLine_2 mb-4"></div>
+
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-fruits" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <section id="Feature_product" class="mb-5">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col_5_change mb-3">
+                              <div class="featured_col f_border text-center">
+                                <div class="h_S_N_S h_S_N_S_hot">
+                                    <p>HOT</p>
+                                </div>
+                                <div class="featured_img">
+                                  <img src="assets/img/home-1/f1.png" alt="" srcset="" />
+                                </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                                <div class="featured_content">
+                                  <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                                  <h2>Agora Food Box</h2>
+                                  <h6 class="featured_icon text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </h6>
+                                  <p class="text-muted">Unit : 500gm</p>
+                                  <h4>
+                                    <span class="ftColor">$300</span>
+                                    <small><s class="text-secondary">$500</s></small>
+                                  </h4>
+                                  <div class="featured_btn">
+                                    <a href="" class="btn btn-outline-dark my-3 rounded-pill">
+                                      <i class="fas fa-shopping-cart"></i> Add To Cart</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col_5_change mb-3">
+                              <div class="featured_col f_border text-center">
+                                <div class="h_S_N_S h_S_N_S_none">
+                                    <p></p>
+                                </div>
+                                <div class="featured_img">
+                                  <img src="assets/img/home-1/f2.png" alt="" srcset="" />
+                                </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                                <div class="featured_content">
+                                  <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                                  <h2>Agora Food Box</h2>
+                                  <h6 class="featured_icon text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </h6>
+                                  <p class="text-muted">Unit : 500gm</p>
+                                  <h4>
+                                    <span class="ftColor">$300</span>
+                                    <small><s class="text-secondary">$500</s></small>
+                                  </h4>
+                                  <div class="featured_btn">
+                                    <a href="" class="btn btn-outline-dark my-3 rounded-pill">
+                                      <i class="fas fa-shopping-cart"></i> Add To Cart</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col_5_change mb-3">
+                              <div class="featured_col f_border text-center">
+                                <div class="h_S_N_S h_S_N_S_out">
+                                    <p>Strock Out</p>
+                                </div>
+                                <div class="featured_img">
+                                  <img src="assets/img/home-1/f3.png" alt="" srcset="" />
+                                </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                                <div class="featured_content">
+                                  <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                                  <h2>Agora Food Box</h2>
+                                  <h6 class="featured_icon text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </h6>
+                                  <p class="text-muted">Unit : 500gm</p>
+                                  <h4>
+                                    <span class="ftColor">$300</span>
+                                    <small><s class="text-secondary">$500</s></small>
+                                  </h4>
+                                  <div class="featured_btn">
+                                    <a href="" class="btn btn-outline-dark my-3 rounded-pill">
+                                      <i class="fas fa-shopping-cart"></i> Add To Cart</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col_5_change mb-3">
+                              <div class="featured_col f_border text-center">
+                                <div class="h_S_N_S h_S_N_S_sale">
+                                    <p>Sale</p>
+                                </div>
+                                <div class="featured_img">
+                                  <img src="assets/img/home-1/f4.png" alt="" srcset="" />
+                                </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                                <div class="featured_content">
+                                  <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                                  <h2>Agora Food Box</h2>
+                                  <h6 class="featured_icon text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </h6>
+                                  <p class="text-muted">Unit : 500gm</p>
+                                  <h4>
+                                    <span class="ftColor">$300</span>
+                                    <small><s class="text-secondary">$500</s></small>
+                                  </h4>
+                                  <div class="featured_btn">
+                                    <a href="" class="btn btn-outline-dark my-3 rounded-pill">
+                                      <i class="fas fa-shopping-cart"></i> Add To Cart</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                  
+                            <div class="col_5_change mb-3">
+                              <div class="featured_col f_border text-center">
+                                <div class="h_S_N_S h_S_N_S_percent">
+                                    <p>-30%</p>
+                                </div>
+                                <div class="featured_img">
+                                  <img src="assets/img/home-1/food_box.png" alt="" srcset="" />
+                                </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
+                                <div class="featured_content">
+                                  <p class="text-muted mt-4">By.Agora Agroo ltd</p>
+                                  <h2>Agora Food Box</h2>
+                                  <h6 class="featured_icon text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                  </h6>
+                                  <p class="text-muted">Unit : 500gm</p>
+                                  <h4>
+                                    <span class="ftColor">$300</span>
+                                    <small><s class="text-secondary">$500</s></small>
+                                  </h4>
+                                  <div class="featured_btn">
+                                    <a href="" class="btn btn-outline-dark my-3 rounded-pill">
+                                      <i class="fas fa-shopping-cart"></i> Add To Cart</a
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                </div>
+                <div class="tab-pane fade" id="pills-bakery" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="pills-frozen text-center">
+                        <img src="assets/img/home-1/fb-react.png" alt="" srcset="">
+                        <h1><strong>Bakery Product Not Found</strong></h1>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-fetured" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="row">
+                        <div class="col-md-9 res_col_9">
+                            <div class="row">
+                                <div class="col-md-3 res_col_3">
+                                    <div class="featured_col f_border text-center mb-4">
+                                        <div class="h_S_N_S h_S_N_S_out">
+                                            <p>Strock Out</p>
+                                        </div>
+                                        <div class="exclusive_img">
+                                            <img src="assets/img/home-1/chips3.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="featured_cartIcon">
+                                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                        <div class="planLine mt-2 mb-4"></div>
+                                        <div class="featured_content">
+                                            <p class="text-muted">By.Agora Agroo ltd</p>
+                                            <h2>Agora Food Box</h2>
+                                            <h6 class="featured_icon text-warning">
+                                                <i class="fas fa-star "></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </h6>
+                                            <p class="text-muted">Unit : 500gm</p>
+                                            <h4>
+                                                <span class="ftColor">$300</span>
+                                                <small><s class="text-secondary">$500</s></small>
+                                            </h4>
+                                            <div class="featured_btn">
+                                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 res_col_3">
+                                    <div class="featured_col f_border text-center mb-4">
+                                        <div class="h_S_N_S h_S_N_S_new">
+                                            <p>New</p>
+                                        </div>
+                                        <div class="exclusive_img">
+                                            <img src="assets/img/home-1/chips2.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="featured_cartIcon">
+                                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                        <div class="planLine mt-2 mb-4"></div>
+                                        <div class="featured_content">
+                                            <p class="text-muted">By.Agora Agroo ltd</p>
+                                            <h2>Agora Food Box</h2>
+                                            <h6 class="featured_icon text-warning">
+                                                <i class="fas fa-star "></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </h6>
+                                            <p class="text-muted">Unit : 500gm</p>
+                                            <h4>
+                                                <span class="ftColor">$300</span>
+                                                <small><s class="text-secondary">$500</s></small>
+                                            </h4>
+                                            <div class="featured_btn">
+                                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 res_col_3">
+                                    <div class="featured_col f_border text-center mb-4">
+                                        <div class="h_S_N_S h_S_N_S_none">
+                                            <p></p>
+                                        </div>
+                                        <div class="exclusive_img">
+                                            <img src="assets/img/home-1/chips.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="featured_cartIcon">
+                                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                        <div class="planLine mt-2 mb-4"></div>
+                                        <div class="featured_content">
+                                            <p class="text-muted">By.Agora Agroo ltd</p>
+                                            <h2>Agora Food Box</h2>
+                                            <h6 class="featured_icon text-warning">
+                                                <i class="fas fa-star "></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </h6>
+                                            <p class="text-muted">Unit : 500gm</p>
+                                            <h4>
+                                                <span class="ftColor">$300</span>
+                                                <small><s class="text-secondary">$500</s></small>
+                                            </h4>
+                                            <div class="featured_btn">
+                                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 res_col_3">
+                                    <div class="featured_col f_border text-center mb-4">
+                                        <div class="h_S_N_S h_S_N_S_sale">
+                                            <p>Sale</p>
+                                        </div>
+                                        <div class="exclusive_img">
+                                            <img src="assets/img/home-1/chips4.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="featured_cartIcon">
+                                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                        <div class="planLine mt-2 mb-4"></div>
+                                        <div class="featured_content">
+                                            <p class="text-muted">By.Agora Agroo ltd</p>
+                                            <h2>Agora Food Box</h2>
+                                            <h6 class="featured_icon text-warning">
+                                                <i class="fas fa-star "></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </h6>
+                                            <p class="text-muted">Unit : 500gm</p>
+                                            <h4>
+                                                <span class="ftColor">$300</span>
+                                                <small><s class="text-secondary">$500</s></small>
+                                            </h4>
+                                            <div class="featured_btn">
+                                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 res_col_3">
+                                    <div class="featured_col f_border text-center mb-4">
+                                        <div class="h_S_N_S h_S_N_S_percent">
+                                            <p>-10</p>
+                                        </div>
+                                        <div class="exclusive_img">
+                                            <img src="assets/img/home-1/chips.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="featured_cartIcon">
+                                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                        <div class="planLine mt-2 mb-4"></div>
+                                        <div class="featured_content">
+                                            <p class="text-muted">By.Agora Agroo ltd</p>
+                                            <h2>Agora Food Box</h2>
+                                            <h6 class="featured_icon text-warning">
+                                                <i class="fas fa-star "></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </h6>
+                                            <p class="text-muted">Unit : 500gm</p>
+                                            <h4>
+                                                <span class="ftColor">$300</span>
+                                                <small><s class="text-secondary">$500</s></small>
+                                            </h4>
+                                            <div class="featured_btn">
+                                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 res_col_3">
+                                    <div class="featured_col f_border text-center mb-4">
+                                        <div class="h_S_N_S h_S_N_S_none">
+                                            <p></p>
+                                        </div>
+                                        <div class="exclusive_img">
+                                            <img src="assets/img/home-1/chips2.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="featured_cartIcon">
+                                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                        <div class="planLine mt-2 mb-4"></div>
+                                        <div class="featured_content">
+                                            <p class="text-muted">By.Agora Agroo ltd</p>
+                                            <h2>Agora Food Box</h2>
+                                            <h6 class="featured_icon text-warning">
+                                                <i class="fas fa-star "></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </h6>
+                                            <p class="text-muted">Unit : 500gm</p>
+                                            <h4>
+                                                <span class="ftColor">$300</span>
+                                                <small><s class="text-secondary">$500</s></small>
+                                            </h4>
+                                            <div class="featured_btn">
+                                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 res_col_3">
+                                    <div class="featured_col f_border text-center mb-4">
+                                        <div class="h_S_N_S h_S_N_S_sale">
+                                            <p>Sale</p>
+                                        </div>
+                                        <div class="exclusive_img">
+                                            <img src="assets/img/home-1/chips3.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="featured_cartIcon">
+                                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                        <div class="planLine mt-2 mb-4"></div>
+                                        <div class="featured_content">
+                                            <p class="text-muted">By.Agora Agroo ltd</p>
+                                            <h2>Agora Food Box</h2>
+                                            <h6 class="featured_icon text-warning">
+                                                <i class="fas fa-star "></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </h6>
+                                            <p class="text-muted">Unit : 500gm</p>
+                                            <h4>
+                                                <span class="ftColor">$300</span>
+                                                <small><s class="text-secondary">$500</s></small>
+                                            </h4>
+                                            <div class="featured_btn">
+                                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 res_col_3">
+                                    <div class="featured_col f_border text-center mb-4">
+                                        <div class="h_S_N_S h_S_N_S_out">
+                                            <p>Strock Out</p>
+                                        </div>
+                                        <div class="exclusive_img">
+                                            <img src="assets/img/home-1/chips4.jpg" alt="" srcset="">
+                                        </div>
+                                        <div class="featured_cartIcon">
+                                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                        </div>
+                                        <div class="planLine mt-2 mb-4"></div>
+                                        <div class="featured_content">
+                                            <p class="text-muted">By.Agora Agroo ltd</p>
+                                            <h2>Agora Food Box</h2>
+                                            <h6 class="featured_icon text-warning">
+                                                <i class="fas fa-star "></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </h6>
+                                            <p class="text-muted">Unit : 500gm</p>
+                                            <h4>
+                                                <span class="ftColor">$300</span>
+                                                <small><s class="text-secondary">$500</s></small>
+                                            </h4>
+                                            <div class="featured_btn">
+                                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 res_col_3 res_d_none">
+                            <div class=" background-res d-flex justify-content-center align-items-center organicHoney_img_1 mb-4"
+                                style="background-image: url('./assets/img/home-1/honey2.jpg');">
+                                <div class="ogranicFoodText3 ms-3">
+                                    <p>NATURAL FOOD</p>
+                                    <h3>Processing Honey Nut</h3>
+                                    <p>SAVE UPTO 20% OFF THIS WEEK</p>
+                                    <div class="organic_btn">
+                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class=" background-res d-flex justify-content-center align-items-center organicHoney_img_2 "
+                                style="background-image: url('./assets/img/home-1/frout_man.jpg');">
+                                <div class="ogranicFoodText3 ms-3">
+                                    <p>NATURAL FOOD</p>
+                                    <h3>Processing Ready See Prawn</h3>
+                                    <p>SAVE UPTO 20% OFF THIS WEEK</p>
+                                    <div class="organic_btn">
+                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill">Shop Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-recent" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="pills-frozen text-center">
+                        <img src="assets/img/home-1/fb-react.png" alt="" srcset="">
+                        <h1><strong>Recent Product Not Found</strong></h1>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-frozen" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="pills-frozen text-center">
+                        <img src="assets/img/home-1/fb-react.png" alt="" srcset="">
+                        <h1><strong>Frozen Product Not Found</strong></h1>
+                    </div>
+                </div>
+              </div>
+
+           
+        </div>
+    </section>
+
+    <section id="Daily_Flash_sell" class="py-5">
+        <div class="container">
+            <div class="dailyFlash">
+                <h2 class="py-4"><span class="ftColor">Daily</span> Flash Sell</h2>
+                <p class="text-muted expire">Expires Time</p>
+                <div class="daily_bg_change rounded-pill text-center">
+                    <h3 class="text-white">D-40: H-32: M-34 : S 35</h3>
+                </div>
+            </div>
+            <div class="planLine_2 mb-4"></div>
             <div class="responsive">
                 <div class="slick_slide">
-                    <img src="assets/img/home-1/beef.jpg" alt="" srcset="">
-                </div>
-
-                <div class="slick_slide ">
-                    <div class="featured_col border text-center">
-                        <div class="featured_img">
-                            <img src="assets/img/home-1/food_box.png" alt="" srcset="">
+                    <div class="flashSell_col f_border">
+                        <div class="h_S_N_S h_S_N_S_hot">
+                            <p>Hot</p>
                         </div>
-                        <div class="planLine mt-2 mb-4"></div>
-                        <div class="featured_content">
+                        <div class="flashSell_img text-center">
+                            <img src="assets/img/home-1/lemon jiuce2.jpg" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="flashSell_content ps-4">
                             <p class="text-muted">By.Agora Agroo ltd</p>
                             <h2>Agora Food Box</h2>
                             <h6 class="featured_icon text-warning">
@@ -488,6 +1433,9 @@
                                 <span class="ftColor">$300</span>
                                 <small><s class="text-secondary">$500</s></small>
                             </h4>
+                            <div class="planLine_3 bg-warning mb-3"></div>
+                            <p class="text-muted ">In Strock : 20/65</p>
+
                             <div class="featured_btn">
                                 <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
                                         class="fas fa-shopping-cart"></i> Add To Cart</a>
@@ -495,286 +1443,203 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="slick_slide">
-                    <img src="assets/img/home-1/Capture.PNG" alt="" srcset="">
-                </div>
+                    <div class="flashSell_col f_border">
+                        <div class="h_S_N_S h_S_N_S_sale">
+                            <p>Sale</p>
+                        </div>
+                        <div class="flashSell_img text-center">
+                            <img src="assets/img/home-1/beef3.jpg" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="flashSell_content ps-4">
+                            <p class="text-muted">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="planLine_3 bg-warning mb-3"></div>
+                            <p class="text-muted ">In Strock : 20/65</p>
 
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
                 <div class="slick_slide">
-                    <img src="assets/img/home-1/download1.jpg" alt="" srcset="">
-                </div>
+                    <div class="flashSell_col f_border">
+                        <div class="h_S_N_S h_S_N_S_percent">
+                            <p>-25%</p>
+                        </div>
+                        <div class="flashSell_img text-center">
+                            <img src="assets/img/home-1/bread_flour-removebg-preview.png" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="flashSell_content ps-4">
+                            <p class="text-muted">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="planLine_3 bg-warning mb-3"></div>
+                            <p class="text-muted ">In Strock : 20/65</p>
 
-                <div class="slick_slide ">
-                    <img src="assets/img/home-1/kacabazar2.jpg" alt="" srcset="">
-                </div>
-
-                <div class="slick_slide">
-                    <img src="assets/img/home-1/images1.jpg" alt="" srcset="">
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-    <!-- exmple -->
-
-    <section id="Exclusive_Product" class="py-5">
-        <div class="container">
-            <h2 class="py-4"><span class="ftColor">Exclusive</span> Product</h2>
-            <div class="planLine_2 mb-4"></div>
-            <div class="row">
-                <div class="col-md-9 res_col_9">
-                    <div class="row">
-                        <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
-                                <div class="exclusive_img">
-                                    <img src="assets/img/home-1/chips3.jpg" alt="" srcset="">
-                                </div>
-                                <div class="planLine mt-2 mb-4"></div>
-                                <div class="featured_content">
-                                    <p class="text-muted">By.Agora Agroo ltd</p>
-                                    <h2>Agora Food Box</h2>
-                                    <h6 class="featured_icon text-warning">
-                                        <i class="fas fa-star "></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </h6>
-                                    <p class="text-muted">Unit : 500gm</p>
-                                    <h4>
-                                        <span class="ftColor">$300</span>
-                                        <small><s class="text-secondary">$500</s></small>
-                                    </h4>
-                                    <div class="featured_btn">
-                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
-                                                class="fas fa-shopping-cart"></i> Add To Cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
-                                <div class="exclusive_img">
-                                    <img src="assets/img/home-1/chips2.jpg" alt="" srcset="">
-                                </div>
-                                <div class="planLine mt-2 mb-4"></div>
-                                <div class="featured_content">
-                                    <p class="text-muted">By.Agora Agroo ltd</p>
-                                    <h2>Agora Food Box</h2>
-                                    <h6 class="featured_icon text-warning">
-                                        <i class="fas fa-star "></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </h6>
-                                    <p class="text-muted">Unit : 500gm</p>
-                                    <h4>
-                                        <span class="ftColor">$300</span>
-                                        <small><s class="text-secondary">$500</s></small>
-                                    </h4>
-                                    <div class="featured_btn">
-                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
-                                                class="fas fa-shopping-cart"></i> Add To Cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
-                                <div class="exclusive_img">
-                                    <img src="assets/img/home-1/chips.jpg" alt="" srcset="">
-                                </div>
-                                <div class="planLine mt-2 mb-4"></div>
-                                <div class="featured_content">
-                                    <p class="text-muted">By.Agora Agroo ltd</p>
-                                    <h2>Agora Food Box</h2>
-                                    <h6 class="featured_icon text-warning">
-                                        <i class="fas fa-star "></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </h6>
-                                    <p class="text-muted">Unit : 500gm</p>
-                                    <h4>
-                                        <span class="ftColor">$300</span>
-                                        <small><s class="text-secondary">$500</s></small>
-                                    </h4>
-                                    <div class="featured_btn">
-                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
-                                                class="fas fa-shopping-cart"></i> Add To Cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
-                                <div class="exclusive_img">
-                                    <img src="assets/img/home-1/chips4.jpg" alt="" srcset="">
-                                </div>
-                                <div class="planLine mt-2 mb-4"></div>
-                                <div class="featured_content">
-                                    <p class="text-muted">By.Agora Agroo ltd</p>
-                                    <h2>Agora Food Box</h2>
-                                    <h6 class="featured_icon text-warning">
-                                        <i class="fas fa-star "></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </h6>
-                                    <p class="text-muted">Unit : 500gm</p>
-                                    <h4>
-                                        <span class="ftColor">$300</span>
-                                        <small><s class="text-secondary">$500</s></small>
-                                    </h4>
-                                    <div class="featured_btn">
-                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
-                                                class="fas fa-shopping-cart"></i> Add To Cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
-                                <div class="exclusive_img">
-                                    <img src="assets/img/home-1/chips.jpg" alt="" srcset="">
-                                </div>
-                                <div class="planLine mt-2 mb-4"></div>
-                                <div class="featured_content">
-                                    <p class="text-muted">By.Agora Agroo ltd</p>
-                                    <h2>Agora Food Box</h2>
-                                    <h6 class="featured_icon text-warning">
-                                        <i class="fas fa-star "></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </h6>
-                                    <p class="text-muted">Unit : 500gm</p>
-                                    <h4>
-                                        <span class="ftColor">$300</span>
-                                        <small><s class="text-secondary">$500</s></small>
-                                    </h4>
-                                    <div class="featured_btn">
-                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
-                                                class="fas fa-shopping-cart"></i> Add To Cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
-                                <div class="exclusive_img">
-                                    <img src="assets/img/home-1/chips2.jpg" alt="" srcset="">
-                                </div>
-                                <div class="planLine mt-2 mb-4"></div>
-                                <div class="featured_content">
-                                    <p class="text-muted">By.Agora Agroo ltd</p>
-                                    <h2>Agora Food Box</h2>
-                                    <h6 class="featured_icon text-warning">
-                                        <i class="fas fa-star "></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </h6>
-                                    <p class="text-muted">Unit : 500gm</p>
-                                    <h4>
-                                        <span class="ftColor">$300</span>
-                                        <small><s class="text-secondary">$500</s></small>
-                                    </h4>
-                                    <div class="featured_btn">
-                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
-                                                class="fas fa-shopping-cart"></i> Add To Cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
-                                <div class="exclusive_img">
-                                    <img src="assets/img/home-1/chips3.jpg" alt="" srcset="">
-                                </div>
-                                <div class="planLine mt-2 mb-4"></div>
-                                <div class="featured_content">
-                                    <p class="text-muted">By.Agora Agroo ltd</p>
-                                    <h2>Agora Food Box</h2>
-                                    <h6 class="featured_icon text-warning">
-                                        <i class="fas fa-star "></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </h6>
-                                    <p class="text-muted">Unit : 500gm</p>
-                                    <h4>
-                                        <span class="ftColor">$300</span>
-                                        <small><s class="text-secondary">$500</s></small>
-                                    </h4>
-                                    <div class="featured_btn">
-                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
-                                                class="fas fa-shopping-cart"></i> Add To Cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
-                                <div class="exclusive_img">
-                                    <img src="assets/img/home-1/chips4.jpg" alt="" srcset="">
-                                </div>
-                                <div class="planLine mt-2 mb-4"></div>
-                                <div class="featured_content">
-                                    <p class="text-muted">By.Agora Agroo ltd</p>
-                                    <h2>Agora Food Box</h2>
-                                    <h6 class="featured_icon text-warning">
-                                        <i class="fas fa-star "></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </h6>
-                                    <p class="text-muted">Unit : 500gm</p>
-                                    <h4>
-                                        <span class="ftColor">$300</span>
-                                        <small><s class="text-secondary">$500</s></small>
-                                    </h4>
-                                    <div class="featured_btn">
-                                        <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
-                                                class="fas fa-shopping-cart"></i> Add To Cart</a>
-                                    </div>
-                                </div>
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 res_col_3 res_d_none">
-                    <div class=" background-res d-flex justify-content-center align-items-center organicHoney_img_1 mb-4"
-                        style="background-image: url('./assets/img/home-1/honey2.jpg');">
-                    </div>
+                <div class="slick_slide">
+                    <div class="flashSell_col f_border">
+                        <div class="h_S_N_S h_S_N_S_new">
+                            <p>New</p>
+                        </div>
+                        <div class="flashSell_img text-center">
+                            <img src="assets/img/home-1/kopi.jpg" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="flashSell_content ps-4">
+                            <p class="text-muted">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="planLine_3 bg-warning my-3"></div>
+                            <p class="text-muted ">In Strock : 20/65</p>
 
-                    <div class=" background-res d-flex justify-content-center align-items-center organicHoney_img_2 "
-                        style="background-image: url('./assets/img/home-1/frout_man.jpg');">
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark mb-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-    </section>
+                <div class="slick_slide">
+                    <div class="flashSell_col f_border">
+                        <div class="h_S_N_S h_S_N_S_sale">
+                            <p>Sale</p>
+                        </div>
+                        <div class="flashSell_img text-center">
+                            <img src="assets/img/home-1/strawberry2.jpg" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="flashSell_content ps-4">
+                            <p class="text-muted">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="planLine_3 bg-warning mb-3"></div>
+                            <p class="text-muted ">In Strock : 20/65</p>
 
-    <section id="Daily_Flash_sell" class="py-5">
-        <div class="container">
-            <div class="dailyFlash">
-                <h2 class="py-4"><span class="ftColor">Daily</span> Flash Sell</h2>
-                <p class="text-muted expire">Expires Time</p>
-                <div class="daily_bg_change rounded-pill text-center">
-                    <h3 class="text-white">D-40: H-32: M-34 : S 35</h3>
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="slick_slide">
+                    <div class="flashSell_col f_border">
+                        <div class="h_S_N_S h_S_N_S_none">
+                            <p></p>
+                        </div>
+                        <div class="flashSell_img text-center">
+                            <img src="assets/img/home-1/food_box.png" alt="" srcset="">
+                        </div>
+                        <div class="featured_cartIcon">
+                            <a href="#"><i class="fa-regular fa-eye"></i></a>
+                            <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        </div>
+                        <div class="flashSell_content ps-4">
+                            <p class="text-muted">By.Agora Agroo ltd</p>
+                            <h2>Agora Food Box</h2>
+                            <h6 class="featured_icon text-warning">
+                                <i class="fas fa-star "></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </h6>
+                            <p class="text-muted">Unit : 500gm</p>
+                            <h4>
+                                <span class="ftColor">$300</span>
+                                <small><s class="text-secondary">$500</s></small>
+                            </h4>
+                            <div class="planLine_3 bg-warning mb-3"></div>
+                            <p class="text-muted ">In Strock : 20/65</p>
+
+                            <div class="featured_btn">
+                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                        class="fas fa-shopping-cart"></i> Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
             </div>
-            <div class="planLine_2 mb-4"></div>
-            <div class="row">
+
+            <!-- <div class="row">
                 <div class="col_5_change mb-3">
-                    <div class="flashSell_col border">
+                    <div class="flashSell_col f_border">
                         <div class="flashSell_img text-center">
                             <img src="assets/img/home-1/lemon jiuce2.jpg" alt="" srcset="">
                         </div>
@@ -794,7 +1659,7 @@
                                 <span class="ftColor">$300</span>
                                 <small><s class="text-secondary">$500</s></small>
                             </h4>
-                            <div class="planLine_3 bg-warning my-3"></div>
+                            <div class="planLine_3 bg-warning mb-3"></div>
                             <p class="text-muted ">In Strock : 20/65</p>
 
                             <div class="featured_btn">
@@ -805,7 +1670,7 @@
                     </div>
                 </div>
                 <div class="col_5_change mb-3">
-                    <div class="flashSell_col border">
+                    <div class="flashSell_col f_border">
                         <div class="flashSell_img text-center">
                             <img src="assets/img/home-1/beef3.jpg" alt="" srcset="">
                         </div>
@@ -825,7 +1690,7 @@
                                 <span class="ftColor">$300</span>
                                 <small><s class="text-secondary">$500</s></small>
                             </h4>
-                            <div class="planLine_3 bg-warning my-3"></div>
+                            <div class="planLine_3 bg-warning mb-3"></div>
                             <p class="text-muted ">In Strock : 20/65</p>
 
                             <div class="featured_btn">
@@ -836,7 +1701,7 @@
                     </div>
                 </div>
                 <div class="col_5_change mb-3">
-                    <div class="flashSell_col border">
+                    <div class="flashSell_col f_border">
                         <div class="flashSell_img text-center">
                             <img src="assets/img/home-1/bread_flour-removebg-preview.png" alt="" srcset="">
                         </div>
@@ -856,7 +1721,7 @@
                                 <span class="ftColor">$300</span>
                                 <small><s class="text-secondary">$500</s></small>
                             </h4>
-                            <div class="planLine_3 bg-warning my-3"></div>
+                            <div class="planLine_3 bg-warning mb-3"></div>
                             <p class="text-muted ">In Strock : 20/65</p>
 
                             <div class="featured_btn">
@@ -867,7 +1732,7 @@
                     </div>
                 </div>
                 <div class="col_5_change mb-3">
-                    <div class="flashSell_col border">
+                    <div class="flashSell_col f_border">
                         <div class="flashSell_img text-center">
                             <img src="assets/img/home-1/kopi.jpg" alt="" srcset="">
                         </div>
@@ -891,14 +1756,14 @@
                             <p class="text-muted ">In Strock : 20/65</p>
 
                             <div class="featured_btn">
-                                <a href="" class="btn btn-outline-dark my-3 rounded-pill"> <i
+                                <a href="" class="btn btn-outline-dark mb-3 rounded-pill"> <i
                                         class="fas fa-shopping-cart"></i> Add To Cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col_5_change mb-3">
-                    <div class="flashSell_col border">
+                    <div class="flashSell_col f_border">
                         <div class="flashSell_img text-center">
                             <img src="assets/img/home-1/strawberry2.jpg" alt="" srcset="">
                         </div>
@@ -918,7 +1783,7 @@
                                 <span class="ftColor">$300</span>
                                 <small><s class="text-secondary">$500</s></small>
                             </h4>
-                            <div class="planLine_3 bg-warning my-3"></div>
+                            <div class="planLine_3 bg-warning mb-3"></div>
                             <p class="text-muted ">In Strock : 20/65</p>
 
                             <div class="featured_btn">
@@ -928,7 +1793,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         </div>
     </section>
@@ -941,22 +1806,74 @@
                 <div class="col-md-3 res_col_3_recent">
                     <div class=" background-res d-flex justify-content-center align-items-center landed_img_1"
                         style="background-image: url('./assets/img/home-1/badakopi2.jpg');">
-                        <div class="landed_content text-center text-white p-2">
+                        <!-- <div class="landed_content text-center text-white p-2">
                             <img src="assets/img/home-1/smileMan.jpg" alt="" srcset="">
                             <h3>Smile Man</h3>
                             <p>Sr Designer</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quis accusamus rerum
                                 quisquam et eum consequatur. Modi molestiae culpa non!</p>
+                        </div> -->
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                    <div class="landed_content text-center text-white p-2">
+                                        <img src="assets/img/home-1/smileMan.jpg" alt="" srcset="">
+                                        <h3>Smile Man</h3>
+                                        <p>Sr Designer</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quis accusamus rerum
+                                            quisquam et eum consequatur. Modi molestiae culpa non!</p>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                    <div class="landed_content text-center text-white p-2">
+                                        <img src="assets/img/home-1/smileMan.jpg" alt="" srcset="">
+                                        <h3>Smile Man</h3>
+                                        <p>Sr Designer</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quis accusamus rerum
+                                            quisquam et eum consequatur. Modi molestiae culpa non!</p>
+                                    </div>
+                              </div>
+                              <div class="carousel-item">
+                                    <div class="landed_content text-center text-white p-2">
+                                        <img src="assets/img/home-1/smileMan.jpg" alt="" srcset="">
+                                        <h3>Smile Man</h3>
+                                        <p>Sr Designer</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quis accusamus rerum
+                                            quisquam et eum consequatur. Modi molestiae culpa non!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-9 res_col_9">
                     <div class="row">
                         <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
+                            <div class="featured_col f_border text-center mb-4">
+                                <div class="h_S_N_S h_S_N_S_hot">
+                                    <p>Hot</p>
+                                </div>
                                 <div class="exclusive_img">
                                     <img src="assets/img/home-1/chips3.jpg" alt="" srcset="">
                                 </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
                                 <div class="planLine mt-2 mb-4"></div>
                                 <div class="featured_content">
                                     <p class="text-muted">By.Agora Agroo ltd</p>
@@ -981,10 +1898,18 @@
                             </div>
                         </div>
                         <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
+                            <div class="featured_col f_border text-center mb-4">
+                                <div class="h_S_N_S h_S_N_S_new">
+                                    <p>New</p>
+                                </div>
                                 <div class="exclusive_img">
                                     <img src="assets/img/home-1/chips2.jpg" alt="" srcset="">
                                 </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
                                 <div class="planLine mt-2 mb-4"></div>
                                 <div class="featured_content">
                                     <p class="text-muted">By.Agora Agroo ltd</p>
@@ -1009,10 +1934,18 @@
                             </div>
                         </div>
                         <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
+                            <div class="featured_col f_border text-center mb-4">
+                                <div class="h_S_N_S h_S_N_S_none">
+                                    <p></p>
+                                </div>
                                 <div class="exclusive_img">
                                     <img src="assets/img/home-1/chips.jpg" alt="" srcset="">
                                 </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
+                                </div>
                                 <div class="planLine mt-2 mb-4"></div>
                                 <div class="featured_content">
                                     <p class="text-muted">By.Agora Agroo ltd</p>
@@ -1037,9 +1970,17 @@
                             </div>
                         </div>
                         <div class="col-md-3 res_col_3">
-                            <div class="featured_col border text-center mb-4">
+                            <div class="featured_col f_border text-center mb-4">
+                                <div class="h_S_N_S h_S_N_S_out">
+                                    <p>Strock Out</p>
+                                </div>
                                 <div class="exclusive_img">
                                     <img src="assets/img/home-1/chips4.jpg" alt="" srcset="">
+                                </div>
+                                <div class="featured_cartIcon">
+                                    <a href="#"><i class="fa-regular fa-eye"></i></a>
+                                    <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                                    <a href="#"><i class="fa-regular fa-heart"></i></a>
                                 </div>
                                 <div class="planLine mt-2 mb-4"></div>
                                 <div class="featured_content">
@@ -1132,7 +2073,12 @@
                         <img src="assets/img/home-1/1.jpg" alt="">
                         <p>By : David Nov 07 2022</p>
                         <h4>Sociis Velit laculis Eros Curabitur Nascuter An Ultrices</h4>
-                        <h5><a href="">Read More</a></h5>
+                        <p><span id="recentArticelMore" style="display: none;">erisque enim ligula venenatis dolor. 
+                            Maecenas nisl est, ultrices nec congue eget,auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, 
+                             sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                              Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+                              Sed dapibus pulvinar nibh tempor porta.</span></p>
+                            <h5 onclick="myFunction('recentArticelMore','myBtn')" id="myBtn">Read More...</h5>
                     </div>
                 </div>
                 <div class="col-md-3 res_col_3 mb-3">
@@ -1140,7 +2086,12 @@
                         <img src="assets/img/home-1/1.jpg" alt="">
                         <p>By : David Nov 07 2022</p>
                         <h4>Sociis Velit laculis Eros Curabitur Nascuter An Ultrices</h4>
-                        <h5><a href="">Read More</a></h5>
+                        <p><span id="recentArticelMore2" style="display: none;">erisque enim ligula venenatis dolor. 
+                            Maecenas nisl est, ultrices nec congue eget,auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, 
+                             sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                              Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+                              Sed dapibus pulvinar nibh tempor porta.</span></p>
+                            <h5 onclick="myFunction('recentArticelMore2','myBtn2')" id="myBtn2">Read More...</h5>
                     </div>
                 </div>
                 <div class="col-md-3 res_col_3 mb-3">
@@ -1148,7 +2099,12 @@
                         <img src="assets/img/home-1/1.jpg" alt="">
                         <p>By : David Nov 07 2022</p>
                         <h4>Sociis Velit laculis Eros Curabitur Nascuter An Ultrices</h4>
-                        <h5><a href="">Read More</a></h5>
+                        <p><span id="recentArticelMore3"  style="display: none;">erisque enim ligula venenatis dolor. 
+                            Maecenas nisl est, ultrices nec congue eget,auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, 
+                             sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                              Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+                              Sed dapibus pulvinar nibh tempor porta.</span></p>
+                            <h5 onclick="myFunction('recentArticelMore3','myBtn3')" id="myBtn3">Read More...</h5>
                     </div>
                 </div>
                 <div class="col-md-3 res_col_3 mb-3">
@@ -1156,7 +2112,12 @@
                         <img src="assets/img/home-1/1.jpg" alt="">
                         <p>By : David Nov 07 2022</p>
                         <h4>Sociis Velit laculis Eros Curabitur Nascuter An Ultrices</h4>
-                        <h5><a href="">Read More</a></h5>
+                       <p><span id="recentArticelMore4" style="display: none;">erisque enim ligula venenatis dolor. 
+                        Maecenas nisl est, ultrices nec congue eget,auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, 
+                         sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis.
+                          Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+                          Sed dapibus pulvinar nibh tempor porta.</span></p>
+                        <h5 onclick="myFunction('recentArticelMore4','myBtn4')" id="myBtn4">Read More...</h5>
                     </div>
                 </div>
             </div>

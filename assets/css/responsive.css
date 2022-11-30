@@ -209,6 +209,12 @@ For Extra-large size device: 1200px and more */
 .offer_icon {
 	padding-left:0%;
 }
+.slick-prev.slick-arrow {
+	left: 95%;
+}
+.featured_cartIcon {
+	left: 21%;
+}
 .featured_content p {
 	font-size: 14px;
 }
@@ -1017,6 +1023,9 @@ width: 33.33%;
 /* .productDetails_largeDevice {
 	display: none !important;
 } */
+.slick-prev.slick-arrow {
+	left: 94%;
+}
 .featured_content p {
 	font-size: 14px;
 }
@@ -1028,6 +1037,9 @@ width: 33.33%;
 }
 .featured_content h4 {
 	font-size: 18px;
+}
+.featured_cartIcon {
+	left: 21%;
 }
 .productDetails_review .details_review {
 	font-size: 16px;
@@ -1077,11 +1089,14 @@ width: 33.33%;
 	width: 100%;
 }
 /* ---------------Product Details Responsive End---------------- */
-
+/* .profile span {
+	font-size: 20px;
+	font-weight: 500;
+} */
 
 }
 
-/* --------------------------------------- */
+/* ======================================================================================== */
 @media (min-width: 480px)and (max-width:767px){
     .container {
         width: 460px;
@@ -1726,6 +1741,13 @@ width: 33.33%;
 .productDetails_largeDevice {
 	display: none !important;
 }
+.slick-next.slick-arrow {
+	top: -12%;
+	right: 5%;
+}
+.slick-prev.slick-arrow {
+	top: -12%;
+}
 .featured_content p {
 	font-size: 14px;
 }
@@ -1741,7 +1763,9 @@ width: 33.33%;
 .res_paddingLeft{
     padding-left: 0%;
 }
-
+#Recently_landed .featured_cartIcon {
+	left: 35%;
+}
 /* -------------- */
 .payment img {
 	margin: 6px 12px;
@@ -1749,10 +1773,34 @@ width: 33.33%;
 /* ----------------- */
 /* ---------------Product Details Responsive End---------------- */
 
+/* --------------- Topbar menu Start ------------------------ */
+.profile span {
+	font-size: 20px;
+	font-weight: 500;
+}
+#Topbar {
+	height: 85px;
+}
+#Topbar .topRightContent a {
+	padding: 4px 9px;
+}
+#Topbar .topber_usd {
+	padding-left: 5px;
+}
+#Menu {
+	top: 85px;
+}
+.topLeftContent {
+	margin: 5px 31px 10px 31px;
+}
+.paddingTop {
+	padding-top: 240px;
+}
+/* --------------- Topbar menu End ------------------------ */
 
 }
 
-/* --------------------------------------------- */
+/* ==========================================================================================*/
 
 @media (min-width: 320px)and (max-width:479px){
     .container {
@@ -1771,6 +1819,17 @@ width: 33.33%;
 .col_8_change{
     width: 100%;
 }
+.slick-next.slick-arrow {
+	top: -12%;
+	right: 6%;
+}
+.slick-prev.slick-arrow {
+	top: -12%;
+}
+.featured_cartIcon {
+	left: 26%;
+}
+
 .featured_content h2{
     font-size: 18px;
 }
@@ -2258,7 +2317,7 @@ width: 33.33%;
 
 /* -------------Navber Menu Responsive start---------- */
 .res_large_device{
-	display: none;
+	display: none !important;
 }
 .menu ul li:hover::after {
     width: 24%;
@@ -2533,4 +2592,33 @@ width: 33.33%;
 
 /* ---------------Product Details Responsive End---------------- */
 
+/* --------------- Topbar menu Start ------------------------ */
+.profile span {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#Topbar {
+	display: none;
+}
+#MidNavber{
+	display: none;
+}
+.sticky {
+	top: 0px !important;
+}
+#Menu {
+	top: 0;
+}
+.topLeftContent {
+	margin: 5px 31px 10px 31px;
+}
+.paddingTop {
+	padding-top: 160px;
+}
+.profile img {
+	width: 45px;
+	height: 45px;
+}
+/* --------------- Topbar menu End ------------------------ */
 }
