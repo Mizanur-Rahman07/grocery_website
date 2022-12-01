@@ -241,14 +241,75 @@ a {
     font-size: 16px;
     color: white;
 }
+/* --------------profile----------- */
 .profile img {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
 	padding: 4px;
 }
+.profile .profile_user img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	padding: 4px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+.profile .profile_user .profile_user_name h6 {
+	font-size: 15px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+.profile .profile_user .profile_user_name p {
+	font-size: 12px;
+}
+.profile .profile_user {
+	width: 300px;
+	border-bottom: 1px solid #bebcbcbb;
+}
+.profile .dropdown-menu[data-bs-popper] {
+	top: 100%;
+	left: auto;
+	margin-top: 0.5rem;
+	right: 0%;
+	border: 0;
+	box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
+}
+.profile .profile_setting .profile_setting_icon {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	border-radius: 50%;
+	font-size: 18px;
+	background-color: #e1e6eb;
+}
+.profile .profile_setting .profile_setting_text {
+	font-size: 16px;
+	margin: 12px 18px;
+	font-weight: 500;
+}
+.profile_setting .p_setting_i i{
+    padding: 7px;
+}
+.profile_setting .d_setting_i i {
+	padding: 5px;
+}
+.profile .logout_border_top{
+    border-top: 1px solid #bebcbcbb;
+    padding-top: 15px;
+}
+.profile .dropdown-item.active, .dropdown-item:active {
+	color: #fff;
+	background: #f7f1f1;
+}
+/* --------------profile----------- */
 .overflow_1199 {
-	padding-top: 4px;
+	margin-top: 4px;
+	border-right: 1px solid #a4a1a182;
+	height: 26px;
 }
 /* ------------------------Topber End-------------------------------------- */
 /* ------------------ */

@@ -3,7 +3,7 @@ For Tablets or iPad: 480px - 768px
 For Laptop or small-size screen: 768px -1024px
 For Desktop or large-size screen: 1024px -1200px
 For Extra-large size device: 1200px and more */
-
+/* =======================================================Device 1400 to More Start============= */
 @media (min-width: 1400px)and (max-width:1620px){
     .container {
         width: 1380px;
@@ -65,7 +65,9 @@ For Extra-large size device: 1200px and more */
 } */
 /* ---------------Product Details Responsive End---------------- */
 }
+/* =======================================================Device 1400 to 1620 End============= */
 
+/* =======================================================Device 1200 to 1399 Start============= */
 @media (min-width: 1200px)and (max-width:1399px){
     .container {
         width: 1180px;
@@ -201,7 +203,9 @@ For Extra-large size device: 1200px and more */
 } */
 /* ---------------Product Details Responsive End---------------- */
 }
+/* =======================================================Device 1200 to 1399 End============= */
 
+/* =======================================================Device 1024 to 1199 Start============= */
 @media (min-width: 1024px)and (max-width:1199px){
     .container {
         width: 1004px;
@@ -491,8 +495,23 @@ For Extra-large size device: 1200px and more */
 } */
 /* ---------------Product Details Responsive End---------------- */
 
-}
+/* --------------- Topbar menu Start ------------------------ */
 
+#MidNavber .midNavSrcCate .midNavCategory select {
+	width: 50px;
+}
+#MidNavber .midNavSrcCate {
+	margin-left: 40px;
+}
+.midNav_search_btn {
+	right: 5%;
+}
+/* --------------- Topbar menu End ------------------------ */
+
+}
+/* =======================================================Device 1024 to 1199 End============= */
+
+/* =======================================================Device 768 to 1023 Start============= */
 @media (min-width: 768px)and (max-width:1023px){
     .container {
         width: 750px;
@@ -888,8 +907,8 @@ width: 33.33%;
 }
 /* -----------Compare Responsive End----------------- */
 /* -------------Navber Menu Responsive start---------- */
-.res_large_device{
-	display: none;
+.res_large_device {
+	display: none !important;
 }
 .menu ul li:hover::after {
     width: 10%;
@@ -1093,10 +1112,82 @@ width: 33.33%;
 	font-size: 20px;
 	font-weight: 500;
 } */
-
+/* --------------- Topbar menu Start ------------------------ */
+.midNav_res_col_4{
+	width: 50%;
+}
+.navTop_res_d_none{
+	display: none;
+}
+.topRightContent .navTop_res_d_none{
+	display: none !important;
 }
 
-/* ======================================================================================== */
+#Topbar .contact_info {
+	border-right: 0;
+}
+.profile .dropdown-menu[data-bs-popper] {
+	margin-top: 0.8rem;
+	right: auto;
+}
+.profile span {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+/* ------------- Search Option For Mobile Device-----------------           
+.searchCat_mobile .midNavSrcCate{
+    padding: 25px 0 0;
+}
+.searchCat_mobile .midNavSrcCate .midNavCategory select {
+	word-wrap: normal;
+	background: #dbdad7;
+	border: 0;
+    height: 40px;
+    font-size: 14px;
+	padding-left: 12px;
+}
+.searchCat_mobile .midNavSrcCate .midNavCategory option{
+    background-color: #000;
+}
+.searchCat_mobile .midNav_search_field {
+	width: 100%;
+	border: 0;
+	padding: 8.5px 15px;
+	font-size: 15px;
+}
+
+.searchCat_mobile .midNav_search_border input {
+    border: 0;
+}
+.searchCat_mobile .midNavSrcCate .midNavSearch{
+    position: relative;
+}
+.searchCat_mobile .midNav_search_border input:focus {
+	border: none;
+	outline: none;
+}
+.searchCat_mobile .midNav_search_btn {
+	position: absolute;
+	background-color: orange;
+	margin: 0px;
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 0;
+	top: 4.5%;
+	right: 4.5%;
+} 
+/* ------------- Search Option For Mobile Device-----------------           
+
+
+/* --------------- Topbar menu End ------------------------ */
+
+
+}
+/* =======================================================Device 768 to 1023 End============= */
+
+
+/* =======================================================Device 480 to 767 Start============= */
 @media (min-width: 480px)and (max-width:767px){
     .container {
         width: 460px;
@@ -1515,8 +1606,8 @@ width: 33.33%;
 }
 /* -----------Compare Responsive End----------------- */
 /* -------------Navber Menu Responsive start---------- */
-.res_large_device{
-	display: none;
+.res_large_device {
+	display: none !important;
 }
 .menu ul li:hover::after {
     width: 20%;
@@ -1796,12 +1887,23 @@ width: 33.33%;
 .paddingTop {
 	padding-top: 240px;
 }
+#MidNavber {
+	display: none;
+}
+.profile .dropdown-menu[data-bs-popper] {
+	left: auto;
+	right: auto;
+	margin-top: 0.8rem;
+}
+.sticky {
+	top: 50px !important;
+}
 /* --------------- Topbar menu End ------------------------ */
 
 }
+/* =======================================================Device 480 to 767 End============= */
 
-/* ==========================================================================================*/
-
+/* =======================================================Device 320 to 479 Start============= */
 @media (min-width: 320px)and (max-width:479px){
     .container {
         width: 300px;
@@ -2620,5 +2722,15 @@ width: 33.33%;
 	width: 45px;
 	height: 45px;
 }
+.profile .dropdown-menu[data-bs-popper] {
+	top: 100%;
+	left: auto;
+	margin-top: 0.8rem;
+	right: -80%;
+	border: 0;
+	box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 15%);
+}
 /* --------------- Topbar menu End ------------------------ */
 }
+
+/* =======================================================Device 320 to 479 End============= */

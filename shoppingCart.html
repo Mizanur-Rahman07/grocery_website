@@ -40,7 +40,6 @@
   </head>
 
   <body>
-
     <header class="bg_color">
       <section id="Topbar" class="">
           <div class="container">
@@ -56,22 +55,50 @@
                               <option value="3">中國人</option>
                           </select>
                       </div>
-                      <div class="contact_info">
+                      <div class="contact_info ">
                           <i class="fa-regular fa-envelope"></i
                           ><a href="mailto:contact@example.com">mizan@gmail.com</a>
                       </div>
-                      <div class="topQuery">
+                      <div class="topQuery navTop_res_d_none">
                           <i class="fa-regular fa-circle-question me-1"></i>
                           <a href="#">Free Query</a>
                       </div>
                   </div>
               </div>
+
+              <!-- ----------- For Mobile & Tablet Device-------------------- -->
+                  <!-- <div class="col-md-4 searchCat_mobile">
+                      <div class="midNavSrcCate d-flex">
+                          <div class="midNavCategory">
+                              <select class="text-muted" aria-label="Default select example">
+                                  <option selected>All Category</option>
+                                  <option value="1">Grocery</option>
+                                  <option value="2">Fruits</option>
+                                  <option value="3">Vegetable</option>
+                                  <option value="3">Medecine</option>
+                                  <option value="3">Electronics</option>
+                                  <option value="3">Kids</option>
+                                  <option value="3">Man</option>
+                                  <option value="3">Owman</option>
+                              </select>
+                          </div>
+                          <div class="midNavSearch">
+                              <form class="d-flex midNav_search_border mb-4">
+                                  <input class="me-2 midNav_search_field" type="search" placeholder="Search"
+                                      aria-label="Search">
+                                  <button class="btn btn-outline-success midNav_search_btn" type="submit"><i
+                                          class="fa-solid fa-magnifying-glass"></i></button>
+                              </form>
+                          </div>
+                      </div>
+                   </div> -->
+              <!-- ----------- For Mobile & Tablet Device-------------------- -->
   
               <div class="col-md-6">
                 <div class="topRightContent d-flex">
-                      <a href="#"><i class="fa-solid fa-location-dot me-1"></i> Location </a>
-                      <a href="#"><i class="fa-solid fa-truck me-1"></i> Order Tracking </a>
-                      <a href="#"><i class="fa-solid fa-file-arrow-down me-1"></i> App Download </a>
+                      <a class="" href="#"><i class="fa-solid fa-location-dot me-1"></i> Location </a>
+                      <a  class="navTop_res_d_none" href="#"><i class="fa-solid fa-truck me-1"></i> Order Tracking </a>
+                      <a class="" href="#"><i class="fa-solid fa-file-arrow-down me-1"></i> App Download </a>
                       <div class="topber_usd text-white">
                           <select class="text-white" aria-label="Default select example">
                               <option selected>$ USD</option>
@@ -87,7 +114,7 @@
       <section id="MidNavber" class="">
       <div class="container">
           <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 midNav_res_col_4">
                   <div class="midlogoSec d-flex">
                       <div class="midLogo">
                           <img src="assets/img/logo/midlogo.png" alt="" />
@@ -101,7 +128,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 navTop_res_d_none">
                   <div class="midNavSrcCate d-flex">
                       <div class="midNavCategory">
                           <select class="text-muted" aria-label="Default select example">
@@ -126,7 +153,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 midNav_res_col_4">
                   <div class="midNavArrowLoveCart">
                       <div class="midNavArrowLoveCartIcon d-flex">
                           <div class="midNavArrowIcon">
@@ -173,14 +200,89 @@
                               <li><a class="dropdown-item" href="#">Something else here</a></li>
                           </ul>
                       </div>
-                      <!-- mobile view -->
+                      <!-- ------------------mobile view ------------------------>
                   <div class="profile navbar-brand navColor res_small_device" >
-                    <a href="" class="navColor">
+                    <!-- <a href="" class="navColor"> -->
                        <!-- <i class="fa-solid fa-user"></i> -->
-                  <img src="assets/img/logo/avatar-1.png" alt="" srcset="">
-                    <span>My Account</span></a>
+                  <!-- <img src="assets/img/logo/avatar-1.png" alt="" srcset="">
+                    <span>My Account</span> -->
+                    <div class="dropdown ms-1">
+                      <img src="assets/img/logo/avatar-1.png" alt="" srcset="">
+                      <span  class=" navColor" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">My Account</span>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">
+                              <div class="profile_user d-flex">
+                                  <img src="assets/img/logo/avatar-1.png" alt="" srcset="">
+                                  <div class="profile_user_name">
+                                      <h6>Mizanur Rahman</h6>
+                                      <p>Software Engineer</p>
+                                  </div>
+                              </div></a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">
+                              <div class="profile_setting d-flex">
+                                  <div class="profile_setting_icon">
+                                      <i class="fa-solid fa-user ms-2"></i>
+                                  </div>
+                                  <div class="profile_setting_text">
+                                      <h6>Profile</h6>
+                                  </div>
+                              </div></a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">
+                              <div class="profile_setting d-flex">
+                                  <div class="profile_setting_icon p_setting_i">
+                                      <i class="fa-solid fa-gear"></i>
+                                  </div>
+                                  <div class="profile_setting_text">
+                                      <h6>Settings</h6>
+                                  </div>
+                              </div></a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">
+                              <div class="profile_setting d-flex">
+                                  <div class="profile_setting_icon p_setting_i">
+                                      <i class="fa-solid fa-gauge"></i>
+                                  </div>
+                                  <div class="profile_setting_text">
+                                      <h6>Dashboard</h6>
+                                  </div>
+                              </div></a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">
+                              <div class="profile_setting d-flex">
+                                  <div class="profile_setting_icon d_setting_i">
+                                      <i class="fa-solid fa-piggy-bank"></i>
+                                  </div>
+                                  <div class="profile_setting_text">
+                                      <h6>Earnings</h6>
+                                  </div>
+                              </div></a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">
+                              <div class="profile_setting d-flex">
+                                  <div class="profile_setting_icon d_setting_i">
+                                      <i class="fa-solid fa-cloud-arrow-down"></i>
+                                  </div>
+                                  <div class="profile_setting_text">
+                                      <h6>Download</h6>
+                                  </div>
+                              </div></a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">
+                              <div class="profile_setting logout_border_top d-flex">
+                                  <div class="profile_setting_icon p_setting_i">
+                                      <i class="fa-solid fa-right-from-bracket"></i>
+                                  </div>
+                                  <div class="profile_setting_text">
+                                      <h6>Logout</h6>
+                                  </div>
+                              </div></a>
+                          </li>
+                      </ul>
+                  </div> 
                 </div>
-                      <!-- mobile view -->
+                      <!--------------------- mobile view ----------------->
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -245,17 +347,90 @@
                 </div>
                  <!-- --------------------- -->
                  <div class="profile res_large_device d-flex">
-                      <a class="navColor overflow_1199" href="#"><i class="fa-regular fa-star-half-stroke me-1"></i><span>Best Offer</span></a>
-                      <div href="" class="navColor"><span class="ms-2"> | </span>
+                      <a class="navColor overflow_1199" href="#"><i class="fa-regular fa-star-half-stroke me-1"></i><span class="me-2">Best Offer</span></a>
+                      <!-- <div href="" class="navColor"><span class="ms-2"> | </span>
+                      </div>  -->
                           <!-- <i class="fa-solid fa-user ms-2"></i> -->
+                      <div class="dropdown ms-1">
                           <img src="assets/img/logo/avatar-1.png" alt="" srcset="">
-                          <span>My Account</span>
+                          <span  class=" navColor" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">My Account</span>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">
+                                  <div class="profile_user d-flex">
+                                      <img src="assets/img/logo/avatar-1.png" alt="" srcset="">
+                                      <div class="profile_user_name">
+                                          <h6>Mizanur Rahman</h6>
+                                          <p>Software Engineer</p>
+                                      </div>
+                                  </div></a>
+                              </li>
+                              <li><a class="dropdown-item" href="#">
+                                  <div class="profile_setting d-flex">
+                                      <div class="profile_setting_icon">
+                                          <i class="fa-solid fa-user ms-2"></i>
+                                      </div>
+                                      <div class="profile_setting_text">
+                                          <h6>Profile</h6>
+                                      </div>
+                                  </div></a>
+                              </li>
+                              <li><a class="dropdown-item" href="#">
+                                  <div class="profile_setting d-flex">
+                                      <div class="profile_setting_icon p_setting_i">
+                                          <i class="fa-solid fa-gear"></i>
+                                      </div>
+                                      <div class="profile_setting_text">
+                                          <h6>Settings</h6>
+                                      </div>
+                                  </div></a>
+                              </li>
+                              <li><a class="dropdown-item" href="#">
+                                  <div class="profile_setting d-flex">
+                                      <div class="profile_setting_icon p_setting_i">
+                                          <i class="fa-solid fa-gauge"></i>
+                                      </div>
+                                      <div class="profile_setting_text">
+                                          <h6>Dashboard</h6>
+                                      </div>
+                                  </div></a>
+                              </li>
+                              <li><a class="dropdown-item" href="#">
+                                  <div class="profile_setting d-flex">
+                                      <div class="profile_setting_icon d_setting_i">
+                                          <i class="fa-solid fa-piggy-bank"></i>
+                                      </div>
+                                      <div class="profile_setting_text">
+                                          <h6>Earnings</h6>
+                                      </div>
+                                  </div></a>
+                              </li>
+                              <li><a class="dropdown-item" href="#">
+                                  <div class="profile_setting d-flex">
+                                      <div class="profile_setting_icon d_setting_i">
+                                          <i class="fa-solid fa-cloud-arrow-down"></i>
+                                      </div>
+                                      <div class="profile_setting_text">
+                                          <h6>Download</h6>
+                                      </div>
+                                  </div></a>
+                              </li>
+                              <li><a class="dropdown-item" href="#">
+                                  <div class="profile_setting logout_border_top d-flex">
+                                      <div class="profile_setting_icon p_setting_i">
+                                          <i class="fa-solid fa-right-from-bracket"></i>
+                                      </div>
+                                      <div class="profile_setting_text">
+                                          <h6>Logout</h6>
+                                      </div>
+                                  </div></a>
+                              </li>
+                          </ul>
                       </div> 
-                </div>
+                  </div>
               <!-- ---------------------- -->
             </div>
         </nav>
-        
+       
         <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-md">
               <a class="navbar-brand" href="#">Navbar</a>
@@ -264,12 +439,11 @@
         <div class=" background-res d-flex justify-content-start align-items-center navSubMenu" 
               style="background-image: url('./assets/img/home-1/001.png');">
               <div class="container">
-                  <p class="n_s_m_p mb-0"><span class="n_s_m">Grocery</span> | Shopping Cart</p>
+                  <p class="n_s_m_p mb-0"><span class="n_s_m">Grocery | Home</span> | Version 1</p>
               </div>
         </div>
     </section>
   </header>
-
 
     <section id="WishList" class="pb-5 paddingTop">
       <div class="container">
