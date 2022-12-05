@@ -920,6 +920,9 @@ width: 33.33%;
 	padding: 5px 15px;
 	margin-bottom: 30px;
 }
+.mobile_device{
+	display: block;
+}
 /* -----------Compare Responsive End----------------- */
 /* -------------Navber Menu Responsive start---------- */
 .res_small_device{
@@ -1621,6 +1624,9 @@ width: 33.33%;
 .compaireCartBtn {
 	padding: 5px 15px;
 	margin-bottom: 30px;
+}
+.mobile_device{
+	display: block;
 }
 /* -----------Compare Responsive End----------------- */
 /* -------------Navber Menu Responsive start---------- */
@@ -2435,6 +2441,9 @@ width: 33.33%;
 .compaireCartBtn {
 	padding: 5px 15px;
 	margin-bottom: 30px;
+}
+.mobile_device{
+	display: block;
 }
 /* -----------Compare Responsive End----------------- */
 

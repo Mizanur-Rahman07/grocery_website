@@ -1904,7 +1904,7 @@ color: #fbc264;
 }
 .contact_cta_btn input:focus {
     outline: none !important;
-    border:1px solid red;
+    border:1px solid #ff00cb;
     box-shadow: 0 0 10px #719ECE;
   }
 /* ----------------------------------------------- */
@@ -1994,7 +1994,9 @@ color: #fbc264;
 	background: #f5f0f0;
 	opacity: 1;
   }
-
+.mobile_device{
+    display: none;
+}
 /* ------------------------------------ */
 
 .cartQuantity {
@@ -2167,7 +2169,7 @@ color: #fbc264;
   }
 
 /* ---------------------------------------- */
-.carousel-control-prev-icon {
+/* .carousel-control-prev-icon {
 	height: 35px;
 	width: 35px;
 	background-color: green;
@@ -2184,7 +2186,7 @@ color: #fbc264;
 	position: absolute;
 	top: 85%;
 	left: -160%;
-}
+} */
 .detailsSubImg img {
     width: 110px;
     height: 120px;
