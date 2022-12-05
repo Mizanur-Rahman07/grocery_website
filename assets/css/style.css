@@ -331,22 +331,7 @@ color: #fbc264;
 	height: 26px;
 }
 /* ------------------------Topber End-------------------------------------- */
-/* ------------------ */
-.featured_icon input{
-    display: none;
-}
-.featured_icon input + label{
-    text-shadow: 1px 1px 0 #ffe400;
-    cursor: pointer;
-}
-.featured_icon input:checked + label ~ label{
-    color: #838383;
-}
-.featured_icon label:active{
-    transform: scale(0.8);
-    transition: 0.3s ease;
-}
-/* ------------------ */
+
 .col_md_3_change {
     width: 29.166666666666%;
 }
@@ -1870,11 +1855,28 @@ color: #fbc264;
 .wishCart_price{
     color: #1aa45a;
 }
+/* ------------------ */
+.wishContent_review input{
+    display: none;
+}
+.wishContent_review input + label{
+    text-shadow: 1px 1px 0 #ffe400;
+    cursor: pointer;
+}
+.wishContent_review input:checked + label ~ label{
+    color: #838383;
+}
+.wishContent_review label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
 .wishContent_review {
 	font-size: 14px;
 	color: orange;
 	margin-top: 10px;
 }
+/* ------------------ */
+
 .wishStrock {
     margin-top: 70px;
     color: #1aa45a;
