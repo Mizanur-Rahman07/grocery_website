@@ -64,6 +64,21 @@ For Extra-large size device: 1200px and more */
 	display: none !important;
 } */
 /* ---------------Product Details Responsive End---------------- */
+.res_col_1620{
+	width: 41.66666667%;
+}
+.res_col_1620_2{
+	width: 25%;
+}
+/* #MidNavber .midNavSrcCate .midNavSearch {
+	width: 100%;
+} */
+.midNav_search_btn {
+	right: 2.5%;
+}
+.slick-prev.slick-arrow {
+	left: 97%;
+}
 }
 /* =======================================================Device 1400 to 1620 End============= */
 
@@ -907,6 +922,9 @@ width: 33.33%;
 }
 /* -----------Compare Responsive End----------------- */
 /* -------------Navber Menu Responsive start---------- */
+.res_small_device{
+	display: block;
+}
 .res_large_device {
 	display: none !important;
 }
@@ -1606,6 +1624,9 @@ width: 33.33%;
 }
 /* -----------Compare Responsive End----------------- */
 /* -------------Navber Menu Responsive start---------- */
+.res_small_device{
+	display: block;
+}
 .res_large_device {
 	display: none !important;
 }
@@ -2418,6 +2439,9 @@ width: 33.33%;
 /* -----------Compare Responsive End----------------- */
 
 /* -------------Navber Menu Responsive start---------- */
+.res_small_device{
+	display: block;
+}
 .res_large_device{
 	display: none !important;
 }

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 .container {
     max-width: 1620px;
     /* margin: ; */
@@ -47,10 +46,21 @@ a {
 	-webkit-animation: .6s cubic-bezier(.25, .8, .25, 1) 0s normal forwards 1 animdropdown;
 	animation: .6s cubic-bezier(.25, .8, .25, 1) 0s normal forwards 1 animdropdown;
 } */
+
+/* -------------Navber Menu Responsive Start---------- */
+
+.res_small_device{
+	display: none;
+}
+
+/* -------------Navber Menu Responsive End---------- */
 /*  Top Bar */
 #Topbar .topber_lang{
     padding-right: 10px;
     border-right: 1px solid #e9e9e947;
+}
+#Topbar .topber_lang i{
+color: #fbc264;
 }
 #Topbar .topber_lang select option {
 	background-color: black;
@@ -82,13 +92,16 @@ a {
     border-right: 1px solid #e9e9e947;
 }
 #Topbar .contact_info a:hover {
-    color: #E91E63;
+    color: #fbc264;
     transition: ease-in-out 1s;
   }
   
 #Topbar .contact_info i {
-    color: #E91E63;
+    color: #fbc264;
     padding: 4px;   
+}
+#Topbar .topQuery i{
+   color: #fbc264;
 }
 #Topbar .topQuery{
     padding: 0 10px;
@@ -96,8 +109,11 @@ a {
 #Topbar .topQuery a ,.topQuery{
     color: white;
 }
-.topRightContent{
+#Topbar .topRightContent{
     float: right;
+  }
+#Topbar .topRightContent i{
+color: #fbc264;
   }
 
 #Topbar .topRightContent a {
@@ -177,6 +193,7 @@ a {
 }
 #MidNavber .midNavSrcCate .midNavSearch{
     position: relative;
+    width: 100%;
 }
 .midNav_search_border input:focus {
 	border: none;
@@ -265,8 +282,10 @@ a {
 	font-size: 12px;
 }
 .profile .profile_user {
-	width: 300px;
+	width: 332px;
 	border-bottom: 1px solid #bebcbcbb;
+    padding: 4px 16px;
+    margin-bottom: 10px;
 }
 .profile .dropdown-menu[data-bs-popper] {
 	top: 100%;
@@ -297,9 +316,9 @@ a {
 .profile_setting .d_setting_i i {
 	padding: 5px;
 }
-.profile .logout_border_top{
-    border-top: 1px solid #bebcbcbb;
-    padding-top: 15px;
+.profile .logout_border_top {
+	border-top: 1px solid #bebcbcbb;
+	padding: 15px 16px 0 16px;
 }
 .profile .dropdown-item.active, .dropdown-item:active {
 	color: #fff;
@@ -351,6 +370,8 @@ a {
 .flashSell_col{
     position: relative;
 }
+
+
 /* hot,sale,new,strock out */
 .h_S_N_S{
     position: absolute;   
@@ -447,7 +468,8 @@ a {
 	position: fixed;
 	width: 100%;
 	z-index: 1000;
-    top: 136px;
+	top: 136px;
+	transition: ease-in-out 1.3s;
 }
 
 .menu ul li a {
@@ -578,10 +600,10 @@ a {
 }
 .cta_btn{
     display: none;
+    transition: ease-in-out 1s;
 }
 .cta_group:hover .cta_btn{
     display: block;
-    transition: 0.8s;
 }
 
 .cta_group:hover .cta_p{
@@ -610,16 +632,16 @@ a {
 
 .cta_group {
     width: 100%;
-    /* height: 250px; */
     background-color: #f4f1ed;
     margin: 0 auto;
     transition: 0.8s;
+    border: 1px solid #f4f1ed;
+    border-bottom: none;
 
 }
 
 .cta_group:hover{
     background-color: white;
-    border: 1px solid #dee2e6;
     transition: ease-in-out 1s;
 }
 
@@ -750,6 +772,10 @@ a {
     border-radius: 50%;
     margin-bottom: 30px;
 }
+
+#Daily_Flash_sell{
+    height: 600px;
+}
 .flashSell_img{
     border-bottom: 1px solid #f5f0f0; 
     transition: ease-in-out 1s;
@@ -761,6 +787,10 @@ a {
 }
 .f_border:hover .flashSell_img {
     background: #f5f0f0;
+}
+
+.f_border:hover .flashSell_col{
+    height: 500px !important;
 }
 
 .flashSell_content .featured_btn{
@@ -851,14 +881,34 @@ a {
 }
 .slick-next.slick-arrow:hover{
     background-color: green;
-    color: green;
+    color: white;  
 }
 .slick-prev.slick-arrow:hover{
     background-color: green;
-    color: green;
+    color: white;
 }
 .slick_slide {
 	margin: 0px 12px;
+}
+.responsive .slick-next::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f105";
+    color: black;
+    font-size: 15px;
+}
+.responsive .slick-prev::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f104";
+    color: black;
+    font-size: 15px;
+}
+.slick-next.slick-arrow {
+	background: transparent;
+}
+.slick-prev.slick-arrow {
+	background: transparent;
 }
 
 /* ---------------Contact Page---------------------- */
@@ -1852,6 +1902,11 @@ a {
 .contact_cta_D_flex{
     display: flex;
 }
+.contact_cta_btn input:focus {
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+  }
 /* ----------------------------------------------- */
 #Compare .table-hover > tbody > tr:hover {
 	--bs-table-accent-bg: 0;
