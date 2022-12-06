@@ -54,7 +54,7 @@ a {
 }
 
 /* -------------Navber Menu Responsive End---------- */
-/*  Top Bar */
+/* --------------------------- Top Bar ---------------------*/
 #Topbar .topber_lang{
     padding-right: 10px;
     border-right: 1px solid #e9e9e947;
@@ -137,6 +137,8 @@ color: #fbc264;
 /* #Topbar .topRightContent a:last-child {
   border-left: 0;
 } */
+/* ------------------------Topber End-------------------------------------- */
+/* ------------------------Mid Nav Start-------------------------------------- */
 
 #MidNavber{
 	background-color:#15673b;
@@ -167,25 +169,27 @@ color: #fbc264;
 	margin-bottom: 3px;
 }
 #MidNavber .midNavSrcCate{
-    padding: 25px 0 0;
+    padding: 24px 0 0;
 }
 #MidNavber .midNavSrcCate .midNavCategory select {
 	word-wrap: normal;
-	background: #dbdad7;
+	background: #FFF8EE;
 	border: 0;
-    height: 40px;
-    font-size: 14px;
+	height: 46px;
+	font-size: 13px;
 	padding-left: 12px;
 }
-#MidNavber .midNavSrcCate .midNavCategory option{
+/* #MidNavber .midNavSrcCate .midNavCategory option{
     background-color: #000;
-}
+} */
 .midNav_search_field {
 	width: 100%;
 	/* border-radius: 5px; */
 	border: 0;
-	padding: 8.5px 15px;
-	font-size: 15px;
+	padding: 12px 15px;
+	font-size: 14px;
+	font-weight: 300;
+	border-radius: 0 2px 2px 0;
 }
 
 .midNav_search_border input {
@@ -201,15 +205,17 @@ color: #fbc264;
 }
 .midNav_search_btn {
 	position: absolute;
-	background-color: orange;
+	background-color: #FD6D49;
 	margin: 0px;
-	padding: 5px 10px;
+	padding: 8px 12px;
 	border: 0;
 	border-radius: 0;
 	top: 4.5%;
 	right: 4.5%;
 }
-
+.midNav_search_btn i {
+	color: white;
+}
 .midNavArrowLoveCart {
 	float: right;
 	padding: 24px 0 0;
@@ -258,6 +264,9 @@ color: #fbc264;
     font-size: 16px;
     color: white;
 }
+/* ------------------------Mid Nav End-------------------------------------- */
+
+
 /* --------------profile----------- */
 .profile img {
 	width: 35px;
@@ -324,13 +333,88 @@ color: #fbc264;
 	color: #fff;
 	background: #f7f1f1;
 }
-/* --------------profile----------- */
+/* --------------profile End----------- */
 .overflow_1199 {
 	margin-top: 4px;
 	border-right: 1px solid #a4a1a182;
 	height: 26px;
 }
-/* ------------------------Topber End-------------------------------------- */
+
+/* ----------------------Navber Menu Start--------------------- */
+#Menu {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	top: 136px;
+	transition: ease-in-out 0.8s;
+}
+
+.menu ul li a {
+	font-size: 14px;
+	font-weight: 500;
+}
+.dropdown ul li a {
+	font-size: 13px;
+	font-weight: 400;
+
+}
+.menu ul li::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    background-color: red;
+    display: block;
+    transition: .5s;
+  }
+  
+  .menu ul li:hover::after {
+    width: 70%;
+  }
+  
+.sub_menu_hover{
+    display: none;
+    transition: 0.5s;
+}
+.menu ul li:hover .sub_menu_hover{
+    display: block;
+    transition: 0.5s;
+}
+.navSubMenu{
+    height: 65px;
+}
+.navSubMenu .n_s_m{
+    color: green;
+    font-weight: 500;
+}
+.navSubMenu .n_s_m_p{
+    font-family: 'Acme', sans-serif;
+    font-size: 14px;
+}
+.bg_color {
+    /* background-color: #15673b; */
+    /* background-color: rgb(29, 95, 112); */
+    background-color:#fbc264;
+
+}
+.cat_font {
+	font-size: 14px;
+	font-weight: 500;
+}
+.profile span {
+	font-size: 15px;
+	font-weight: 500;
+}
+.profile {
+    color: white;
+    float: right;
+}
+
+.offer_icon {
+    /* padding-left: 15%; */
+    float: right;
+}
+/* -----------------------------Nav End---------------------------- */
 
 .col_md_3_change {
     width: 29.166666666666%;
@@ -448,75 +532,6 @@ color: #fbc264;
     width: 50%;
 
 }
-/* ----------------------Navber Menu--------------------- */
-#Menu {
-	position: fixed;
-	width: 100%;
-	z-index: 1000;
-	top: 136px;
-	transition: ease-in-out 1.3s;
-}
-
-.menu ul li a {
-	font-size: 14px;
-	font-weight: 500;
-}
-.menu ul li::after {
-    content: " ";
-    width: 0%;
-    height: 2px;
-    margin: auto;
-    background-color: red;
-    display: block;
-    transition: .5s;
-  }
-  
-  .menu ul li:hover::after {
-    width: 70%;
-  }
-  
-.sub_menu_hover{
-    display: none;
-    transition: 0.5s;
-}
-.menu ul li:hover .sub_menu_hover{
-    display: block;
-    transition: 0.5s;
-}
-.navSubMenu{
-    height: 65px;
-}
-.navSubMenu .n_s_m{
-    color: green;
-    font-weight: 500;
-}
-.navSubMenu .n_s_m_p{
-    font-family: 'Acme', sans-serif;
-    font-size: 14px;
-}
-.bg_color {
-    /* background-color: #15673b; */
-    /* background-color: rgb(29, 95, 112); */
-    background-color:#fbc264;
-
-}
-.cat_font {
-	font-size: 14px;
-	font-weight: 500;
-}
-.profile span {
-	font-size: 15px;
-	font-weight: 500;
-}
-.profile {
-    color: white;
-    float: right;
-}
-
-.offer_icon {
-    /* padding-left: 15%; */
-    float: right;
-}
 
 .organic_img_1 {
     width: 100%;
@@ -587,8 +602,9 @@ color: #fbc264;
     display: none;
     transition: ease-in-out 1s;
 }
-.cta_group:hover .cta_btn{
-    display: block;
+.cta_group:hover .cta_btn {
+	display: block;
+	margin-top: 11px;
 }
 
 .cta_group:hover .cta_p{
