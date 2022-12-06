@@ -186,7 +186,7 @@ color: #fbc264;
 	width: 100%;
 	/* border-radius: 5px; */
 	border: 0;
-	padding: 12px 15px;
+	padding: 12.5px 15px;
 	font-size: 14px;
 	font-weight: 300;
 	border-radius: 0 2px 2px 0;
@@ -209,7 +209,7 @@ color: #fbc264;
 	margin: 0px;
 	padding: 8px 12px;
 	border: 0;
-	border-radius: 0;
+	border-radius: 2px;
 	top: 4.5%;
 	right: 4.5%;
 }
