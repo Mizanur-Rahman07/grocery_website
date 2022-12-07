@@ -91,13 +91,6 @@ For Extra-large size device: 1200px and more */
         width: 1180px;
 }
 
-.featured_content h2{
-    font-size: 25px;
-}
-
-.flashSell_content h2{
-    font-size: 25px;
-}
 .about_freeShipping_content i {
 	font-size: 40px;
 	margin-right: 20px;
@@ -237,12 +230,18 @@ For Extra-large size device: 1200px and more */
 .featured_cartIcon {
 	left: 21%;
 }
+#Exclusive_Product .featured_cartIcon {
+	left: 13%;
+}
+#Recently_landed .featured_cartIcon {
+	left: 10%;
+}
 .featured_content p {
 	font-size: 14px;
 }
-.featured_content h2 {
+/* .featured_content h2 {
 	font-size: 24px;
-}
+} */
 .featured_content h6 {
 	font-size: 13px;
 }
@@ -569,6 +568,21 @@ width: 33.33%;
 	height: 40px;
 	margin-top: 20px;
 }
+.flashSell_content p {
+	font-size: 13px;
+}
+.flashSell_content p {
+	font-size: 13px;
+}
+.flashSell_content p {
+	font-size: 13px;
+}
+.flashSell_content p {
+	font-size: 13px;
+}
+.flashSell_content .featured_btn a {
+	font-size: 13px;
+}
 .res_col_3_recent{
     width: 100%;
 }
@@ -602,6 +616,9 @@ width: 33.33%;
 	color: white;
 	padding: 1px 0 0 0;
 	font-weight: 700;
+}
+.cta_group:hover .cta_btn {
+	margin-top: 8px;
 }
 .search_field {
 	width: 100%;
@@ -1070,10 +1087,16 @@ width: 33.33%;
 	left: 94%;
 }
 .featured_content p {
-	font-size: 14px;
+	font-size: 13px;
 }
 .featured_content h2 {
-	font-size: 22px;
+	font-size: 20px;
+}
+.carousel-indicators {
+    margin-bottom: -1rem;
+}
+.featured_content .featured_btn a {
+	font-size: 13px;
 }
 .featured_content h6 {
 	font-size: 14px;
@@ -1253,7 +1276,24 @@ width: 33.33%;
 #Daily_Flash_sell .planLine_2{
     display: none;
 }
-
+.flashSell_content p {
+	font-size: 13px;
+}
+.flashSell_content h2 {
+	font-size: 20px;
+}
+.flashSell_content h6 {
+	font-size: 13px;
+}
+.flashSell_content h4 {
+	font-size: 18px;
+}
+.flashSell_content .featured_btn a {
+	font-size: 12px;
+}
+#Daily_Flash_sell {
+	height: 640px;
+}
 .landed_img_1 {
 	height: 400px;
     margin-bottom: 20px;
@@ -1870,16 +1910,19 @@ width: 33.33%;
 	top: -12%;
 }
 .featured_content p {
-	font-size: 14px;
+	font-size: 13px;
 }
 .featured_content h2 {
-	font-size: 22px;
+	font-size: 20px;
 }
 .featured_content h6 {
 	font-size: 14px;
 }
 .featured_content h4 {
 	font-size: 18px;
+}
+.featured_content .featured_btn a {
+	font-size: 13px;
 }
 .res_paddingLeft{
     padding-left: 0%;
@@ -1892,6 +1935,7 @@ width: 33.33%;
 	margin: 6px 12px;
 }
 /* ----------------- */
+
 /* ---------------Product Details Responsive End---------------- */
 
 /* --------------- Topbar menu Start ------------------------ */

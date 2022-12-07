@@ -503,7 +503,18 @@ color: #fbc264;
     height: 100px;
     width: 100px;
 }
-
+.featured_content h2 {
+	font-size: 22px;
+}
+.featured_content h2 {
+	font-size: 22px;
+}
+.featured_content h2 , .flashSell_content h2{
+	font-size: 22px;
+}
+.featured_content h6 {
+	font-size: 15px;
+}
 .featured_img{
     border-bottom: 1px solid #f5f0f0; 
     transition: ease-in-out 1s;
@@ -604,13 +615,18 @@ color: #fbc264;
 }
 .cta_group:hover .cta_btn {
 	display: block;
-	margin-top: 11px;
+	margin-top: 9px;
 }
 
 .cta_group:hover .cta_p{
     display: none;
     transition: 0.8s;
-
+}
+.cta_group h5 {
+	font-size: 18px;
+}
+.cta_group .cta_p {
+	font-size: 14px;
 }
 .cta_btn a {
     border-radius: 0px;
@@ -658,9 +674,10 @@ color: #fbc264;
 }
 
 .featured_btn a {
-    border-color: darkgray;
-    border-radius: 0px;
-    transition: ease-in-out 0.8s;
+	border-color: darkgray;
+	border-radius: 0px;
+	transition: ease-in-out 0.8s;
+	font-size: 13px;
 }
 .f_border:hover .featured_btn a{
     background: green;
