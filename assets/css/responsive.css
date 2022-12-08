@@ -31,11 +31,11 @@ For Extra-large size device: 1200px and more */
 	font-size: 15px;
 }
 .organicHoney_img_1 {
-	height: 658px;
+	height: 596px;
 	width: 100%;
 }
 .landed_img_1 {
-	height: 487px;
+	height: 456px;
 	width: 100%;
 }
 /* ----------------------------- */
@@ -107,12 +107,15 @@ For Extra-large size device: 1200px and more */
 	font-size: 15px;
 }
 .organicHoney_img_1 {
-	height: 658px;
+	height: 588px;
 	width: 100%;
 }
 .landed_img_1 {
-	height: 487px;
+	height: 452px;
 	width: 100%;
+}
+.carousel-indicators {
+    margin-bottom: -1rem;
 }
 .search_btn {
 	padding: 0px 13px;
@@ -260,7 +263,7 @@ For Extra-large size device: 1200px and more */
 	height: 165px;
 }
 .organicHoney_img_1 {
-	height: 545px;
+	height: 496px;
 	width: 100%;
 }
 
@@ -285,8 +288,11 @@ For Extra-large size device: 1200px and more */
 	padding: 10px;
 }
 .landed_img_1 {
-	height: 432px;
+	height: 406px;
 	width: 100%;
+}
+.carousel-indicators {
+    margin-bottom: -0.5rem;
 }
 .landed_content p {
 	font-size: 14px;
@@ -559,7 +565,10 @@ width: 33.33%;
     display: none;
 }
 .expire {
-	margin: 25px;
+	margin: 30px;
+}
+.daily_bg_change {
+	width: 290px;
 }
 .daily_bg_change h3 {
 	font-size: 20px;
@@ -2081,6 +2090,9 @@ width: 33.33%;
 .landed_img_1 {
     height: 300px;
     margin-bottom: 25px;
+}
+.carousel-indicators {
+    margin-bottom: -0.5rem;
 }
 .landed_content img {
 	width: 80px;

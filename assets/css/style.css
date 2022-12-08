@@ -346,7 +346,7 @@ color: #fbc264;
 	width: 100%;
 	z-index: 1000;
 	top: 136px;
-	transition: ease-in-out 0.8s;
+	transition: ease-in-out 0.5s;
 }
 
 .menu ul li a {
@@ -509,6 +509,10 @@ color: #fbc264;
 .featured_content h2 {
 	font-size: 22px;
 }
+.featured_content p , .flashSell_content p{
+	font-size: 15px;
+    margin-bottom: 10px;
+}
 .featured_content h2 , .flashSell_content h2{
 	font-size: 22px;
 }
@@ -630,7 +634,7 @@ color: #fbc264;
 }
 .cta_btn a {
     border-radius: 0px;
-    background-color: orange;
+    background-color: green;
     transition: 0.8s;
     border: none;
     color: white;
@@ -641,7 +645,6 @@ color: #fbc264;
     border: none;
     background-color: green;
     transition: 0.8s;
-
 }
 .cta {
     padding: 2px;
@@ -740,6 +743,11 @@ color: #fbc264;
 .f_border:hover .exclusive_img {
     background: #f5f0f0;
 }
+.exclusive_img {
+	border-bottom: 1px solid #f5f0f0;
+	transition: ease-in-out 1s;
+	margin: 5px;
+}
 .exclusive_img img {
     width: 200px;
     height: 200px;
@@ -762,8 +770,8 @@ color: #fbc264;
     font-size: 14px;
 }
 .organicHoney_img_1 {
-    height: 680px;
-    width: 100%;
+	height: 588px;
+	width: 100%;
 }
 
 .organicHoney_img_2 {
@@ -780,8 +788,8 @@ color: #fbc264;
 }
 
 .landed_img_1 {
-    height: 500px;
-    width: 100%;
+	height: 452px;
+	width: 100%;
 }
 
 .landed_content img {
@@ -2244,11 +2252,28 @@ color: #fbc264;
 	padding: 130px 45px;
 	border-radius: 2px;
 }
-.details_review{
-    /* padding-top: 35px; */
-    font-size: 20px;
-    color: orange;
+
+/* ------------------ */
+.details_review .review{
+    display: none;
 }
+.details_review .review + label{
+    text-shadow: 1px 1px 0 #ffe400;
+    cursor: pointer;
+}
+.details_review .review:checked + label ~ label{
+    color: #838383;
+}
+.details_review label:active{
+    transform: scale(0.8);
+    transition: 0.3s ease;
+}
+.details_review {
+	font-size: 20px;
+	color: orange;
+	/* margin-top: 10px; */
+}
+/* ------------------ */
 .productDetails_text{
     color: rgb(78, 77, 77);
     padding-right: 15%;
